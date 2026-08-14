@@ -1,0 +1,37 @@
+title: "우리 성경 공부"
+description: "성경을 한 장씩 읽고, 문맥을 살피며, 삶에 적용한 기록"
+lang: ko-KR
+timezone: Asia/Seoul
+url: "https://akaslany.github.io"
+baseurl: "/bible-study"
+theme: minima
+permalink: pretty
+
+collections:
+  studies:
+    output: true
+    permalink: /studies/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: studies
+    values:
+      layout: study
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - proverbs.md
+  - archive.md
+  - about.md
+
+show_excerpts: false
+author: "Ki-jung Kim"
+
+exclude:
+  - scripts
+  - tests
+  - README.md

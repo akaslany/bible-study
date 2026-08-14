@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="study-page">
+  <header class="study-header">
+    <nav class="breadcrumbs" aria-label="현재 위치"><a href="{{ '/' | relative_url }}">홈</a><span>›</span><a href="{{ '/proverbs/' | relative_url }}">잠언</a><span>›</span><span>{{ page.chapter }}장</span></nav>
+    <p class="eyebrow">PROVERBS · CHAPTER {{ page.chapter }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="study-summary">{{ page.summary }}</p>
+    <div class="study-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y년 %m월 %d일" }}</time><span>잠언 {{ page.chapter }}장</span><span>일일 묵상</span></div>
+  </header>
+
+  <nav class="chapter-nav top" aria-label="장 이동">
+    {% if page.previous_chapter %}<a href="{{ page.previous_url | relative_url }}">← 잠언 {{ page.previous_chapter }}장</a>{% else %}<span></span>{% endif %}
+    <a class="all-chapters" href="{{ '/proverbs/' | relative_url }}">전체 목차</a>
+    {% if page.next_chapter %}<a href="{{ page.next_url | relative_url }}">잠언 {{ page.next_chapter }}장 →</a>{% else %}<span class="completion">완독</span>{% endif %}
+  </nav>
+
+  <div class="study-content">
+    {{ content }}
+  </div>
+
+  <nav class="chapter-nav bottom" aria-label="다음 공부">
+    {% if page.previous_chapter %}<a href="{{ page.previous_url | relative_url }}">← {{ page.previous_chapter }}장</a>{% else %}<span></span>{% endif %}
+    <a class="all-chapters" href="{{ '/proverbs/' | relative_url }}">잠언 목차</a>
+    {% if page.next_chapter %}<a href="{{ page.next_url | relative_url }}">{{ page.next_chapter }}장 →</a>{% else %}<span class="completion">잠언 31장 완독 ✓</span>{% endif %}
+  </nav>
+
+  <aside class="translation-note"><strong>인용 안내</strong><p>핵심 구절은 NKRV와 ESV를 비교해 읽습니다. 각 번역문의 권리는 해당 권리자에게 있습니다.</p></aside>
+</article>

@@ -1,0 +1,43 @@
+---
+---
+@import "minima";
+
+:root { --ink:#24251f; --muted:#6c6d63; --paper:#fbfaf5; --cream:#f2efe4; --line:#dedacc; --sage:#596b50; --sage-dark:#35442f; --gold:#b18a42; --white:#fff; }
+* { box-sizing:border-box; }
+body { background:var(--paper); color:var(--ink); font-family:"Noto Sans KR","Apple SD Gothic Neo",system-ui,sans-serif; line-height:1.75; }
+.site-header { background:rgba(251,250,245,.96); border-top:4px solid var(--sage-dark); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:20; backdrop-filter:blur(12px); }
+.site-title { font-family:Georgia,"Noto Serif KR",serif; font-weight:700; letter-spacing:-.03em; }
+.site-nav .page-link { color:var(--ink); font-weight:650; }
+.site-footer { background:var(--sage-dark); color:#e9ecdf; border:0; }
+.site-footer a,.site-footer .footer-col-wrapper { color:#e9ecdf; }
+.wrapper { max-width:1120px; }
+.page-content { padding:0 0 64px; }
+.eyebrow { margin:0 0 10px; color:var(--sage); font-size:.76rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+.hero { min-height:560px; padding:90px 0 74px; display:grid; grid-template-columns:1.45fr .75fr; align-items:center; gap:70px; }
+.hero h1 { margin:0; max-width:760px; font-family:Georgia,"Noto Serif KR",serif; font-size:clamp(3rem,7vw,5.6rem); line-height:1.08; letter-spacing:-.055em; }
+.hero h1 span { color:var(--sage); }
+.hero-lead { max-width:650px; margin:28px 0; color:var(--muted); font-size:1.15rem; }
+.hero-actions { display:flex; gap:12px; flex-wrap:wrap; }
+.button { display:inline-block; padding:12px 20px; border-radius:999px; text-decoration:none!important; font-weight:750; }
+.button.primary { background:var(--sage-dark); color:white; }
+.button.secondary { color:var(--sage-dark); border:1px solid var(--sage); }
+.current-card { padding:34px; border:1px solid var(--line); border-radius:26px; background:var(--cream); box-shadow:0 18px 45px rgba(53,68,47,.09); }
+.status-pill { float:right; padding:5px 11px; border-radius:999px; background:var(--sage-dark); color:white; font-size:.72rem; font-weight:800; }
+.card-kicker { color:var(--muted); font-size:.86rem; }
+.current-card h2 { margin:12px 0 0; font:700 2.2rem Georgia,"Noto Serif KR",serif; }
+.big-number { margin:26px 0 14px; font:700 3rem Georgia,serif; }.big-number small{font:500 1rem system-ui;color:var(--muted)}
+.progress { height:8px; overflow:hidden; border-radius:999px; background:#d9d6ca; }.progress span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--sage),#8a9b78)}
+.section-block { padding:70px 0; border-top:1px solid var(--line); }
+.section-heading { display:flex; justify-content:space-between; align-items:end; margin-bottom:28px; gap:20px; }.section-heading h2,.reading-path h2{margin:0;font:700 2.2rem Georgia,"Noto Serif KR",serif}.section-heading a{color:var(--sage-dark);font-weight:750}
+.study-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+.study-card { display:flex; min-height:275px; flex-direction:column; padding:25px; border:1px solid var(--line); border-radius:18px; background:white; transition:.2s ease; }.study-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(36,37,31,.08)}
+.study-card-top { display:flex; justify-content:space-between; color:var(--sage); font-size:.8rem; font-weight:800; }.study-card h3{font:700 1.35rem/1.35 Georgia,"Noto Serif KR",serif}.study-card h3 a{color:var(--ink);text-decoration:none}.study-card p{color:var(--muted);font-size:.94rem}.text-link{margin-top:auto;color:var(--sage-dark);font-weight:750}
+.steps { display:grid; grid-template-columns:repeat(7,1fr); gap:8px; margin-top:28px; }.steps span{text-align:center;padding:16px 6px;border:1px solid var(--line);border-radius:12px;background:white;font-weight:700;font-size:.85rem}
+.series-intro { margin:30px 0 45px; padding:30px; border-radius:20px; background:var(--cream); }.series-intro h2{font:700 2rem Georgia,"Noto Serif KR",serif}.progress-label{margin-bottom:0;color:var(--muted);font-size:.85rem}
+.chapter-list { border-top:1px solid var(--line); }.chapter-row{display:grid;grid-template-columns:62px 1fr;gap:20px;padding:24px 0;border-bottom:1px solid var(--line)}.chapter-number{display:grid;width:52px;height:52px;place-items:center;border-radius:50%;background:var(--sage-dark);color:white!important;text-decoration:none!important;font:700 1.15rem Georgia,serif}.chapter-row h3{margin:0 0 5px;font:700 1.2rem Georgia,"Noto Serif KR",serif}.chapter-row h3 a{color:var(--ink)}.chapter-row p{margin:0;color:var(--muted)}.chapter-row time{font-size:.78rem;color:var(--sage)}
+.archive-list{border-top:1px solid var(--line)}.archive-item{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:15px 4px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}.archive-item time{color:var(--muted);font-variant-numeric:tabular-nums}
+.study-page{max-width:850px;margin:0 auto}.study-header{padding:62px 0 36px}.breadcrumbs{display:flex;gap:9px;margin-bottom:38px;color:var(--muted);font-size:.82rem}.breadcrumbs a{color:var(--muted)}.study-header h1{margin:0;font:700 clamp(2.3rem,6vw,4.1rem)/1.16 Georgia,"Noto Serif KR",serif;letter-spacing:-.04em}.study-summary{max-width:760px;margin:22px 0;color:var(--muted);font-size:1.12rem}.study-meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--sage);font-size:.82rem;font-weight:700}
+.chapter-nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:.88rem}.chapter-nav>:last-child{text-align:right}.chapter-nav a{color:var(--sage-dark);font-weight:750}.chapter-nav .all-chapters{padding:6px 12px;border-radius:999px;background:var(--cream)}.completion{color:var(--gold);font-weight:800}
+.study-content{padding:42px 0;font-family:Georgia,"Noto Serif KR",serif;font-size:1.06rem;line-height:1.9}.study-content h2{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font:700 1.7rem/1.4 Georgia,"Noto Serif KR",serif;color:var(--sage-dark)}.study-content h3{margin-top:2.1rem;font:700 1.25rem Georgia,"Noto Serif KR",serif}.study-content li{margin-bottom:.5rem}.study-content blockquote{border-left:3px solid var(--sage);background:var(--cream);padding:15px 22px;color:var(--ink)}
+.translation-note{margin:38px 0;padding:20px 23px;border-radius:14px;background:var(--cream);color:var(--muted);font-size:.86rem}.translation-note p{margin:4px 0 0}.empty-state{text-align:center;padding:120px 0}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding:58px 0;gap:35px}.study-grid{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.section-heading{align-items:start;flex-direction:column}.chapter-nav{grid-template-columns:1fr auto 1fr}.archive-item{grid-template-columns:100px 1fr}.study-content{font-size:1rem}.site-header{position:relative}}
