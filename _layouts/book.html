@@ -1,0 +1,11 @@
+---
+layout: page
+---
+{% assign studies = site.studies | where: "book_slug", page.book_slug | sort: "date" %}
+{% assign groups = studies | group_by: "series_id" %}
+<div class="series-intro"><span class="eyebrow">{{ page.book_en }}</span><h2>{{ page.book_name }}</h2><p>{{ page.description }}</p><p class="progress-label">{{ studies.size }}개의 공개 공부 기록</p></div>
+{% for group in groups %}
+  {% assign series_first = group.items | first %}{% assign series_last = group.items | last %}
+  <section class="series-group"><div class="series-heading"><div><p class="eyebrow">READING SERIES {{ forloop.index }}</p><h2>{{ series_first.series }}</h2></div><div class="series-state">{% if series_first.series_complete %}완독{% elsif series_first.series_closed %}{{ group.items.size }}개 기록 · {{ series_first.series_missing | join: ", " }}장 없음{% else %}{{ series_last.chapter }}장까지{% endif %}</div></div>
+  <div class="chapter-list">{% for study in group.items %}<article class="chapter-row"><a class="chapter-number" href="{{ study.url | relative_url }}">{{ study.chapter }}</a><div><h3><a href="{{ study.url | relative_url }}">{{ study.title }}</a></h3><p>{{ study.summary }}</p><time datetime="{{ study.date | date_to_xmlschema }}">{{ study.date | date: "%Y.%m.%d" }}</time></div></article>{% endfor %}</div></section>
+{% endfor %}

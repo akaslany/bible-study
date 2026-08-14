@@ -1,0 +1,67 @@
+[
+  {
+    "name": "잠언",
+    "slug": "proverbs",
+    "en": "PROVERBS",
+    "description": "지혜의 시작부터 하나님을 경외하는 삶의 열매까지",
+    "expected_chapters": 31,
+    "records": 31,
+    "series_count": 1,
+    "complete_series": 1,
+    "status": "완독",
+    "url": "/proverbs/",
+    "latest_chapter": 31
+  },
+  {
+    "name": "전도서",
+    "slug": "ecclesiastes",
+    "en": "ECCLESIASTES",
+    "description": "헛됨을 직면하며 하나님이 주신 오늘을 살아가는 지혜",
+    "expected_chapters": 12,
+    "records": 12,
+    "series_count": 1,
+    "complete_series": 1,
+    "status": "완독",
+    "url": "/books/ecclesiastes/",
+    "latest_chapter": 12
+  },
+  {
+    "name": "욥기",
+    "slug": "job",
+    "en": "JOB",
+    "description": "설명되지 않는 고난 속에서 하나님을 신뢰하는 길",
+    "expected_chapters": 42,
+    "records": 42,
+    "series_count": 1,
+    "complete_series": 1,
+    "status": "완독",
+    "url": "/books/job/",
+    "latest_chapter": 42
+  },
+  {
+    "name": "요한복음",
+    "slug": "john",
+    "en": "JOHN",
+    "description": "말씀이 육신이 되어 오신 예수 그리스도를 만나는 기록",
+    "expected_chapters": 21,
+    "records": 41,
+    "series_count": 2,
+    "complete_series": 1,
+    "status": "완독 1회 · 총 41개 기록",
+    "url": "/books/john/",
+    "latest_chapter": 21
+  },
+  {
+    "name": "사도행전",
+    "slug": "acts",
+    "en": "ACTS",
+    "description": "성령 안에서 복음이 예루살렘에서 땅끝으로 확장되는 여정",
+    "expected_chapters": 28,
+    "records": 8,
+    "series_count": 1,
+    "complete_series": 0,
+    "status": "진행 중 · 8 / 28장",
+    "url": "/books/acts/",
+    "latest_chapter": 8
+  }
+]

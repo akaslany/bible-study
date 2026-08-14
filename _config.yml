@@ -24,7 +24,7 @@ plugins:
   - jekyll-seo-tag
 
 header_pages:
-  - proverbs.md
+  - books.md
   - archive.md
   - about.md
 

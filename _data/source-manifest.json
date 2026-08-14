@@ -1,223 +1,1631 @@
 {
-  "source_root": "private Proverbs archive",
-  "count": 31,
-  "files": [
+  "source_root": "private Bible archive",
+  "source_count": 135,
+  "published_count": 134,
+  "omitted": [
     {
-      "source_file": "2026-03-29-proverbs-1.md",
-      "source_sha256": "c3c5e3c4327c09245eda64b28c3606ebe27efee2806d7e98761472f85a2a7b8f",
+      "source_file": "John/2026-04-30-john-1.md",
+      "reason": "near-date exact duplicate of 2026-05-01-john-1.md"
+    }
+  ],
+  "public_transformations": [
+    "automation metadata removed",
+    "quotation lines over 500 characters replaced by chapter-and-verse reference"
+  ],
+  "source_files": [
+    {
+      "source_file": "Proverbs/2026-03-29-proverbs-1.md",
+      "source_sha256": "c3c5e3c4327c09245eda64b28c3606ebe27efee2806d7e98761472f85a2a7b8f"
+    },
+    {
+      "source_file": "Proverbs/2026-03-30-proverbs-2.md",
+      "source_sha256": "aa92de65442aa0b66a49ba00d9c9c035e6c5126fb4ccaf9edec7423953fdad58"
+    },
+    {
+      "source_file": "Proverbs/2026-03-31-proverbs-3.md",
+      "source_sha256": "d3ee61b9173c034a620b69363dc18d9f6b90700e21a75ecdd9c13088cb33a3b1"
+    },
+    {
+      "source_file": "Proverbs/2026-04-01-proverbs-4.md",
+      "source_sha256": "2ac42da3c6f0f6aa9495ca81e5cd97798f423c68a9ae232fd7fc5b07d72045af"
+    },
+    {
+      "source_file": "Proverbs/2026-04-02-proverbs-5.md",
+      "source_sha256": "426d87516d55ff54f1e72b05efd1cf1ffb33dcbb5bdb9c48cc33e8473661f9a0"
+    },
+    {
+      "source_file": "Proverbs/2026-04-03-proverbs-6.md",
+      "source_sha256": "6df479fe82cd80dba151e7223714dca91f249656b74ea9fa097e1f565a6f6b0a"
+    },
+    {
+      "source_file": "Proverbs/2026-04-04-proverbs-7.md",
+      "source_sha256": "440094a8b9cb06bf0273047855acc659374cc844385d4569e70d809a560147c7"
+    },
+    {
+      "source_file": "Proverbs/2026-04-05-proverbs-8.md",
+      "source_sha256": "de95eaffa27693b05da7377532fde6bf2b56fa8aecb5ff7ca26e27af967a8309"
+    },
+    {
+      "source_file": "Proverbs/2026-04-06-proverbs-9.md",
+      "source_sha256": "387e03cb97664d528429d3b1cd181f97e1833de4000972a6c195c83278f88a76"
+    },
+    {
+      "source_file": "Proverbs/2026-04-07-proverbs-10.md",
+      "source_sha256": "99159bcc231543b88e015274fc65a584ae41bb4b202607849ee7e9b222770769"
+    },
+    {
+      "source_file": "Proverbs/2026-04-08-proverbs-11.md",
+      "source_sha256": "decb877fe50dc1264e7ec5dcf034c3a6a48c7a8f5d313d6ad5d2ce2dfcdb88e1"
+    },
+    {
+      "source_file": "Proverbs/2026-04-09-proverbs-12.md",
+      "source_sha256": "3d786bef9f38ccd3cb70c3f9f73f4c8544b623e63c3129661593e03c7b310af6"
+    },
+    {
+      "source_file": "Proverbs/2026-04-10-proverbs-13.md",
+      "source_sha256": "66f3e4ffc32a3a8c2ed5ec10afe4c7e21517f72340a252090b56eff50d568132"
+    },
+    {
+      "source_file": "Proverbs/2026-04-11-proverbs-14.md",
+      "source_sha256": "fc0eef83229577935b7b361b545b80a83840dd12a17ac72513f9237c5299bcb6"
+    },
+    {
+      "source_file": "Proverbs/2026-04-12-proverbs-15.md",
+      "source_sha256": "26d0ffe430a0369946f21774539041b807e3abb748fe2a8e67f396a7e329ecdf"
+    },
+    {
+      "source_file": "Proverbs/2026-04-13-proverbs-16.md",
+      "source_sha256": "a98b00f8c064a3fcdae532b28799ab368620a6b4ef6218571afda84cda347805"
+    },
+    {
+      "source_file": "Proverbs/2026-04-14-proverbs-17.md",
+      "source_sha256": "f6a82e8d9cb3be09a88d44db6e7fa26fab998bc7427b17ad9a7c09928f5e319d"
+    },
+    {
+      "source_file": "Proverbs/2026-04-15-proverbs-18.md",
+      "source_sha256": "dc8021cf37ca72894d047bbf2ab5744395bc256db1958906328145848356d1df"
+    },
+    {
+      "source_file": "Proverbs/2026-04-16-proverbs-19.md",
+      "source_sha256": "949ffa38003acc332bde96f73789eed0539f6dbfce3a6c5d960e9b24d1f635ea"
+    },
+    {
+      "source_file": "Proverbs/2026-04-17-proverbs-20.md",
+      "source_sha256": "160d2eaae6596489bc662051166a9dcb1e86f7c5f8a94606d8f1240d138193b1"
+    },
+    {
+      "source_file": "Proverbs/2026-04-18-proverbs-21.md",
+      "source_sha256": "395656f9858282576614ab47d0b062dd73e57e7769bcc37fc14e183597df2bf5"
+    },
+    {
+      "source_file": "Proverbs/2026-04-19-proverbs-22.md",
+      "source_sha256": "35e05c71953b44b10a226edb6483eaa7f61b99a738daa2a5b70ca846027f5452"
+    },
+    {
+      "source_file": "Proverbs/2026-04-20-proverbs-23.md",
+      "source_sha256": "22bbe91e288355d9cf6e0dfe063ec78341159cb424fc611e26453b48bdd6e91f"
+    },
+    {
+      "source_file": "Proverbs/2026-04-21-proverbs-24.md",
+      "source_sha256": "949e0b01c87de3c7ac4ac45bcc81387e7e886a16979c85e51547df179926ef3f"
+    },
+    {
+      "source_file": "Proverbs/2026-04-22-proverbs-25.md",
+      "source_sha256": "9ca06686c373b5f2c50b0f5b41a2f94bcf5430822fe80b764740f1c782bd7ea5"
+    },
+    {
+      "source_file": "Proverbs/2026-04-23-proverbs-26.md",
+      "source_sha256": "bbe1caa8d23eea3c874e6d48bc198c1d01b32d4020a08a0cb6c8d678a47c9202"
+    },
+    {
+      "source_file": "Proverbs/2026-04-24-proverbs-27.md",
+      "source_sha256": "cee13f04b4aaee3c25787236efb3a64bf658333c06fa5abe5d50b9c5bb67706f"
+    },
+    {
+      "source_file": "Proverbs/2026-04-25-proverbs-28.md",
+      "source_sha256": "a85ea1f98ca4375ef8c820d984a70573446018404e0273f74863b2383f22637b"
+    },
+    {
+      "source_file": "Proverbs/2026-04-26-proverbs-29.md",
+      "source_sha256": "4bba88a264578df6eae2fd73465ab092db1158cbad866dde5ca86b159ec53b2a"
+    },
+    {
+      "source_file": "Proverbs/2026-04-27-proverbs-30.md",
+      "source_sha256": "9633447919248710db92461e6b68f6ec171bdd78d38e75a7c86a06f9658da7f6"
+    },
+    {
+      "source_file": "Proverbs/2026-04-28-proverbs-31.md",
+      "source_sha256": "af950db4b767c41ff0fec226485bea4814c4c9537823a0c48310d23f577ada0a"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-23-ecclesiastes-1.md",
+      "source_sha256": "9ae72c55e625aecc491b17fef2b9dc1656a9894a2783868e420f55b61e7ec4a1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-24-ecclesiastes-2.md",
+      "source_sha256": "7fb875a7ba499c6304680a645b5a3e1daa9129a72645be51d3ca40cbbd428969"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-25-ecclesiastes-3.md",
+      "source_sha256": "e71066662b1f77b219b5e75aa612b155ae77f174cd5b642ce96a2990eff5e68a"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-26-ecclesiastes-4.md",
+      "source_sha256": "6e014799c52a6985e167291e4ca4b205a124e742fbde3d70910f8d840498f93f"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-27-ecclesiastes-5.md",
+      "source_sha256": "70efb5943824924e5b5700049adfc31bc8a962d591452b1728f25d7e28e8d7ee"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-28-ecclesiastes-6.md",
+      "source_sha256": "a3fae059fd1faff99ea2b625f486157b9997489a5f32483fe6c8acfdc889b46f"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-29-ecclesiastes-7.md",
+      "source_sha256": "26a50b238edb450c556001170d0199f498ae1ab9296def22b92ed65d59a70401"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-30-ecclesiastes-8.md",
+      "source_sha256": "1c6ae0b10b73b7b7133a39ac42312be2908ab2c7bf4759af83e232da11757817"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-31-ecclesiastes-9.md",
+      "source_sha256": "dc41719c6e8f048fc85d7e2a4e795e99fa58ae196343c45d132acebd16383615"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-06-01-ecclesiastes-10.md",
+      "source_sha256": "b670d08733b76fae3b96297d7b50e83652bfa27b71ded59cd7a80db234b2cef4"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-06-02-ecclesiastes-11.md",
+      "source_sha256": "8aaa13a67b6a5c32b7c772e739600442f28a96b49b524307373978675463ff22"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-06-03-ecclesiastes-12.md",
+      "source_sha256": "c5f9c592f31c9cbd2d73246acf3501010a196b6ed085154c38a1787269b51ea7"
+    },
+    {
+      "source_file": "Job/2026-06-05-job-1.md",
+      "source_sha256": "d84105b39659eba981b9524b1ab0bb4ba83793d15b0fe2a477c56a31fa492890"
+    },
+    {
+      "source_file": "Job/2026-06-06-job-2.md",
+      "source_sha256": "94511855bf8eda0d00492dea5282080fd7ec68f85231ebc60f67a232ef008b4f"
+    },
+    {
+      "source_file": "Job/2026-06-07-job-3.md",
+      "source_sha256": "16d2110e5c9932345c04c08546563fb1b18297b191c467196ebb3cf079988860"
+    },
+    {
+      "source_file": "Job/2026-06-08-job-4.md",
+      "source_sha256": "abdc442a72477e9f005b3cc221390b5f744b042fb95ee37a47e883dd00a35258"
+    },
+    {
+      "source_file": "Job/2026-06-09-job-5.md",
+      "source_sha256": "38b9d78221a83562499df6227156ab1e080980a3c63ad79d3229142a1ac19d81"
+    },
+    {
+      "source_file": "Job/2026-06-10-job-6.md",
+      "source_sha256": "6ac3c6fba035d35420eff3cf0f5ebe7431009aae503be59099e737f541c61340"
+    },
+    {
+      "source_file": "Job/2026-06-11-job-7.md",
+      "source_sha256": "31319d553d96c440fa6980ee49c6607d83d1e25da5b4a36d6685a35612132022"
+    },
+    {
+      "source_file": "Job/2026-06-12-job-8.md",
+      "source_sha256": "2282d92bf6feab8df34d772054c5dfa51dcc4e15fc5ad496630df74c3b34541a"
+    },
+    {
+      "source_file": "Job/2026-06-13-job-9.md",
+      "source_sha256": "df28afc7dcc5f13a244e2e3c1bbd21c92dd6a1b3e395795f6e2e66af118d3836"
+    },
+    {
+      "source_file": "Job/2026-06-14-job-10.md",
+      "source_sha256": "9a9d1d8f507995eafe3626fa38270242653bb4e53b00c54f1746ab75f512e84d"
+    },
+    {
+      "source_file": "Job/2026-06-15-job-11.md",
+      "source_sha256": "bc60e6dd8a5c984008c577d2d3638435406bbc70cc49b014ae4048710692c168"
+    },
+    {
+      "source_file": "Job/2026-06-16-job-12.md",
+      "source_sha256": "ff7ceea52638cdce1c3374daeef8f1e08d87873be32d1277963ac2799e1d7fae"
+    },
+    {
+      "source_file": "Job/2026-06-17-job-13.md",
+      "source_sha256": "7f9ffc5139d94fe1cff686ee15036f53c9bba72baeedf2d7bdb92255041a75ef"
+    },
+    {
+      "source_file": "Job/2026-06-18-job-14.md",
+      "source_sha256": "dc04ded0820503811dbdded3c4485cfdcd3c03a0c1f33ef5820243e4456fbba8"
+    },
+    {
+      "source_file": "Job/2026-06-19-job-15.md",
+      "source_sha256": "48f3108f3bc0a3b9f62a5ce33f418f439b2e24fe8a8499e7b77abb45cd09337a"
+    },
+    {
+      "source_file": "Job/2026-06-20-job-16.md",
+      "source_sha256": "2de7a2bade573d2f82ab7552c338e4c5d9fd2cc148fee5ee15dbfeff8ca300a1"
+    },
+    {
+      "source_file": "Job/2026-06-21-job-17.md",
+      "source_sha256": "4b08fa24bdd38667f4e5fd31de2a854f515673504bd6173c421af8173388f634"
+    },
+    {
+      "source_file": "Job/2026-06-22-job-18.md",
+      "source_sha256": "4ed1eecf0f84863367713f1c5949d263a5f62d21d2f6fdff08a987edf5929520"
+    },
+    {
+      "source_file": "Job/2026-06-23-job-19.md",
+      "source_sha256": "3faf596f9b21303aa7f082fefa8edc55411d6f3220784b008e1a3d19b28ee39a"
+    },
+    {
+      "source_file": "Job/2026-06-24-job-20.md",
+      "source_sha256": "c64feae416e4738053c0307d1bbb2d6764dd65b5ab15607c939829a6ea7ec88a"
+    },
+    {
+      "source_file": "Job/2026-06-25-job-21.md",
+      "source_sha256": "2ba533b5c56b8940b10d9696663c27e6c771e6b10850b72b4e91fcd5c8de26e1"
+    },
+    {
+      "source_file": "Job/2026-06-26-job-22.md",
+      "source_sha256": "dce6bbedf0ff00d4a699b8619dc74671ef747e7bb2c24f767ef7a5c3c1f1a0a8"
+    },
+    {
+      "source_file": "Job/2026-06-27-job-23.md",
+      "source_sha256": "18bc18b23d22befbe880bbf6ca6396f2706f5332bd1a6e25209379aaf9b98125"
+    },
+    {
+      "source_file": "Job/2026-06-28-job-24.md",
+      "source_sha256": "a6d2d3cfdbcc66b6b59eb5906260a6151caaae8df1e89a9b95e179d28525b343"
+    },
+    {
+      "source_file": "Job/2026-06-29-job-25.md",
+      "source_sha256": "b262614cc602133226f7f9fa2c4a78d0a5a68933f9d6659836407781dbcd648d"
+    },
+    {
+      "source_file": "Job/2026-06-30-job-26.md",
+      "source_sha256": "c8b5ae66c03cb38629948eab97c9f784d0b2338a9b62f0658af0650756bb3ae0"
+    },
+    {
+      "source_file": "Job/2026-07-01-job-27.md",
+      "source_sha256": "84b36390e3c403f5ad7c7f608f56f52ef44c5af0b3a8957d9ddc2e9c12f63cbe"
+    },
+    {
+      "source_file": "Job/2026-07-02-job-28.md",
+      "source_sha256": "79756745ae6ec5a27fb799078e50109234ad6e31976d1575f2ee9084a411e07e"
+    },
+    {
+      "source_file": "Job/2026-07-03-job-29.md",
+      "source_sha256": "75990a91c12fb883a1d893e7fecd7d4362e92153628d6b9db6b90372c6b03b95"
+    },
+    {
+      "source_file": "Job/2026-07-04-job-30.md",
+      "source_sha256": "51150a0391fadc89605b4b18db8351a523272c128731e7acbe49d5a2c199cb17"
+    },
+    {
+      "source_file": "Job/2026-07-05-job-31.md",
+      "source_sha256": "de6eeee2fea79626e9c1314004b212b4a7fe317559226b29fdc65c0abf185375"
+    },
+    {
+      "source_file": "Job/2026-07-06-job-32.md",
+      "source_sha256": "e36d7825a2ccf4bee03216244a2fa67aac483120f63be59e8f8d0d2caec81309"
+    },
+    {
+      "source_file": "Job/2026-07-07-job-33.md",
+      "source_sha256": "c601a424a075361a4245ab8f252d6f82535ad7549a750f82cdc2e9b1a3c67f4f"
+    },
+    {
+      "source_file": "Job/2026-07-08-job-34.md",
+      "source_sha256": "f95a3ae0ee050599e3aca66635c42d9a982c3f8b1fec5eb79a5e75ca800ad9dd"
+    },
+    {
+      "source_file": "Job/2026-07-09-job-35.md",
+      "source_sha256": "8f78ec9135043ba798ef4d5163e1fdd5cc873fcc4b845be5ca4d16fa681f79a2"
+    },
+    {
+      "source_file": "Job/2026-07-10-job-36.md",
+      "source_sha256": "c5b188ae5d0aa13b5ceea25907fd6a100fc4ade10066b1076abf6e7bae37dfb9"
+    },
+    {
+      "source_file": "Job/2026-07-11-job-37.md",
+      "source_sha256": "e116a3f1a32681662b5b0e8b5e926ec5daedaa8530e4bcea77b64e6cdb7f91b3"
+    },
+    {
+      "source_file": "Job/2026-07-12-job-38.md",
+      "source_sha256": "8e1c746082a0817f20e0c9072a03daf2041fe8bcf3492b3ba6115adb9b4d64e5"
+    },
+    {
+      "source_file": "Job/2026-07-13-job-39.md",
+      "source_sha256": "5d03c93b636475fd5fd9ce3fa645191778bd80dad7ad20a6ecd2bc02be426da5"
+    },
+    {
+      "source_file": "Job/2026-07-14-job-40.md",
+      "source_sha256": "5b5a3e567e3e099d5e0ef8f165d88969b116758abd0f805348acbc5700ec41af"
+    },
+    {
+      "source_file": "Job/2026-07-15-job-41.md",
+      "source_sha256": "31d6197575772a6491a97d29da8f024868dadc8dda3edd59c87fd6be1dc8ee26"
+    },
+    {
+      "source_file": "Job/2026-07-16-job-42.md",
+      "source_sha256": "2b6ecca21018abb795ec24ed2ffaa1748cf9ed355173c7fc36d1723744d747a2"
+    },
+    {
+      "source_file": "John/2026-04-30-john-1.md",
+      "source_sha256": "7156f693572805ff0172f38950fbda601e0da186b5a07969ab959d1f439b8995"
+    },
+    {
+      "source_file": "John/2026-05-01-john-1.md",
+      "source_sha256": "6b9dfa1843fe4700e454b38d5fdd73a5881d0c1c085f73a57bf7bf9e09d27813"
+    },
+    {
+      "source_file": "John/2026-05-02-john-2.md",
+      "source_sha256": "334884bbacc7ab58de6ca558e803b7ff2470d545716e815c2e154f45229de94f"
+    },
+    {
+      "source_file": "John/2026-05-04-john-4.md",
+      "source_sha256": "4406562563a218c795c9538fc08346b64f96607e856d96e48d06fcd2fdcb0c9f"
+    },
+    {
+      "source_file": "John/2026-05-05-john-5.md",
+      "source_sha256": "48c45458298b26798bcb07f2db06d02af57def16827f539041b5f55fcfc592f2"
+    },
+    {
+      "source_file": "John/2026-05-06-john-6.md",
+      "source_sha256": "dac5411df6b6fb9a5a49e33a5773f9f5a08d0436912ef4dbdb97980aa27682d0"
+    },
+    {
+      "source_file": "John/2026-05-07-john-7.md",
+      "source_sha256": "ce5d3973a8454d308481d2caff953aa5a3cf9b4c59594e3995fc6400bfcf0a41"
+    },
+    {
+      "source_file": "John/2026-05-08-john-8.md",
+      "source_sha256": "9dc92241dae327746baa9f5acd616838bd669df7704b43541e854514887aa739"
+    },
+    {
+      "source_file": "John/2026-05-09-john-9.md",
+      "source_sha256": "d34ed29b2a47fcd1bb1264a4987f26572b1f5d9f1b63da96793e03f9c1a459f3"
+    },
+    {
+      "source_file": "John/2026-05-10-john-10.md",
+      "source_sha256": "b66cfa02780ef424f8ed49c99add8524d6b8e36e63db2a097020f2fab2ad4322"
+    },
+    {
+      "source_file": "John/2026-05-11-john-11.md",
+      "source_sha256": "4305e7ab9211a931bbaf850f864bfcd9e4d985bbc416b97ca4c6b01dbe8fffa7"
+    },
+    {
+      "source_file": "John/2026-05-12-john-12.md",
+      "source_sha256": "7f2af66f4bccba404058c3fb165c6dcc9b49884e1bfcb1ca6c3ee84063bfc2ab"
+    },
+    {
+      "source_file": "John/2026-05-13-john-13.md",
+      "source_sha256": "9d6d729119443baefd9336b8b935c8c735f4ec0e5f73985c541da1aed9912222"
+    },
+    {
+      "source_file": "John/2026-05-14-john-14.md",
+      "source_sha256": "d146177099c45736880540b459954b41b3563d5376fd03a0a4f093451dc1c68c"
+    },
+    {
+      "source_file": "John/2026-05-15-john-15.md",
+      "source_sha256": "c6e485952bc0b9d59246556eec09f2a832b296a8f64ae2563b3c41fc153cba00"
+    },
+    {
+      "source_file": "John/2026-05-16-john-16.md",
+      "source_sha256": "a626e955c9b1c816b6f0cc9e620540c687df649458f829f456424620fe4c6b4b"
+    },
+    {
+      "source_file": "John/2026-05-17-john-17.md",
+      "source_sha256": "4628f16290e1dce6da29feb2dddda33be0d4dc1f6eb8e68d4115d69275c5e613"
+    },
+    {
+      "source_file": "John/2026-05-18-john-18.md",
+      "source_sha256": "aa5983d4ad8170d222d4fdcf13d04a515824027d938cf1b9a65f39328ea3e817"
+    },
+    {
+      "source_file": "John/2026-05-19-john-19.md",
+      "source_sha256": "7484510de17ea7739fa52aa58e6114a47157650ab12f586df43f86aa4380f961"
+    },
+    {
+      "source_file": "John/2026-05-20-john-20.md",
+      "source_sha256": "d0dc609e5be2ec6751235752925991cbfe0286e5764cda201d766771931185f7"
+    },
+    {
+      "source_file": "John/2026-05-21-john-21.md",
+      "source_sha256": "57b13eac2d20b89476397b838479eb0f3121a350a7dab67a3ec306684f170030"
+    },
+    {
+      "source_file": "John/2026-07-17-john-1.md",
+      "source_sha256": "1af43e70d8bb53f5da2d6f28dbcfb8e2e193af6dff60ef7dca76fdf9b1f9309d"
+    },
+    {
+      "source_file": "John/2026-07-18-john-2.md",
+      "source_sha256": "dd39395316b832ff9580c1ac252fd52756a5726b0deb9e7ccbbc63f8cc7e8905"
+    },
+    {
+      "source_file": "John/2026-07-19-john-3.md",
+      "source_sha256": "518aa84485517a2b34470c5a26981a9ac7d4b28c3db8ad24b584980a5b178af5"
+    },
+    {
+      "source_file": "John/2026-07-20-john-4.md",
+      "source_sha256": "82e57f0b8f0abdb573f992974b75f04c1d3ad320443dee8930d004cfc3755333"
+    },
+    {
+      "source_file": "John/2026-07-21-john-5.md",
+      "source_sha256": "318fafe3efa858833dafcc124412d451d28803509c8c30e9e87b31254197999b"
+    },
+    {
+      "source_file": "John/2026-07-22-john-6.md",
+      "source_sha256": "a1ead1c68e5d307f3dcf1eb27301225688ca03f226139f0d04f4f071f14787ca"
+    },
+    {
+      "source_file": "John/2026-07-23-john-7.md",
+      "source_sha256": "e1e76f128830b3c4b158482c91b6c8729a1f8718ccf6a032fc038559f48f7978"
+    },
+    {
+      "source_file": "John/2026-07-24-john-8.md",
+      "source_sha256": "2d6dd41153d8d69116e77a8eab2ede2ff42ed00a4ca0ee7a01e7cc2f375dfe05"
+    },
+    {
+      "source_file": "John/2026-07-25-john-9.md",
+      "source_sha256": "d71d6ed6d4e2b288b8e3239fc9bb0cea8204e61d76f54f3745209502a14f2d53"
+    },
+    {
+      "source_file": "John/2026-07-26-john-10.md",
+      "source_sha256": "5ca2cfcf708128e5a655aed1bcc8824305f6bf690c324d444d3eb29ba23dce11"
+    },
+    {
+      "source_file": "John/2026-07-27-john-11.md",
+      "source_sha256": "f5bbb1e5a7846f60336ce58f0d4aeccff8584f7f565bb57918783df7b1b5cc26"
+    },
+    {
+      "source_file": "John/2026-07-28-john-12.md",
+      "source_sha256": "576eb9f051c1bca7a1e8682ed4b364c45265ccc82a02130fd4e640b6c67caaab"
+    },
+    {
+      "source_file": "John/2026-07-29-john-13.md",
+      "source_sha256": "654f5107fde5f785d58b843f7daf6b0591f46b33fe33ced351dc9126cbb5d40d"
+    },
+    {
+      "source_file": "John/2026-07-30-john-14.md",
+      "source_sha256": "d845f5963d3a579fa4d80bfd7ad96153f1dcfff7c2e4acaa86e6cf00a8d4e43d"
+    },
+    {
+      "source_file": "John/2026-07-31-john-15.md",
+      "source_sha256": "74834db55e60a5dcc34219e037dd73118d39579d9146cd7003c923863c8686c6"
+    },
+    {
+      "source_file": "John/2026-08-01-john-16.md",
+      "source_sha256": "5c35ea475a5faac5f239afeaea160e433bcd6855876dc0871220e94a066a3e33"
+    },
+    {
+      "source_file": "John/2026-08-02-john-17.md",
+      "source_sha256": "0547ac30f58dad831d195320f780ffc9e6cd86e1e1c70dd8259900699fa1a272"
+    },
+    {
+      "source_file": "John/2026-08-03-john-18.md",
+      "source_sha256": "786e1a8803c23f676ad285868bb784098bb0d3f77605aa0365704cb611005a1d"
+    },
+    {
+      "source_file": "John/2026-08-04-john-19.md",
+      "source_sha256": "b8584762325f54f138efd37be96471e67d05dab606f12a48aa6d472b482e7119"
+    },
+    {
+      "source_file": "John/2026-08-05-john-20.md",
+      "source_sha256": "5c27375c4bf18403dc9c2097bd24688859181e3d2bd3a280ce97ed53ceeb4ba4"
+    },
+    {
+      "source_file": "John/2026-08-06-john-21.md",
+      "source_sha256": "97ea7a1d47a1daaa8847c7ad0c0642c2c1e966e018d000f457f389420ac357a7"
+    },
+    {
+      "source_file": "Acts/2026-08-07-acts-1.md",
+      "source_sha256": "f0af37f3d3c16016fc4f821f4a78e10adec9c7b0a0f7118c19de72f2439dd573"
+    },
+    {
+      "source_file": "Acts/2026-08-08-acts-2.md",
+      "source_sha256": "5b095015cc4610b088bc9d04aaf715de055428302f36da1a0833b7cc275e7b91"
+    },
+    {
+      "source_file": "Acts/2026-08-09-acts-3.md",
+      "source_sha256": "c43d67f8f72e77f78b2f6c18ae8678764b17065abfe4679f37ff8ce5c6302f54"
+    },
+    {
+      "source_file": "Acts/2026-08-10-acts-4.md",
+      "source_sha256": "bc2a28c6d892d7602058250dfaa0566f82c482c182513b7b7910c406df9e2ba6"
+    },
+    {
+      "source_file": "Acts/2026-08-11-acts-5.md",
+      "source_sha256": "6c5578cc8dc128ead10460df7b750dcbca52aa36723e1b4794ce4d98feaf1777"
+    },
+    {
+      "source_file": "Acts/2026-08-12-acts-6.md",
+      "source_sha256": "3c48625730f5bec0e1b39dd35732b91801453f56331ff0e8714d3c6a6a30359d"
+    },
+    {
+      "source_file": "Acts/2026-08-13-acts-7.md",
+      "source_sha256": "32b7d155b14f76fdfc423d9411754c7f9eb595ecb4f9dd62ecba5df9010eb574"
+    },
+    {
+      "source_file": "Acts/2026-08-14-acts-8.md",
+      "source_sha256": "07141c34a0edc50b3b1f25de09bb721138c8494203be24a9943ffdc88afe6027"
+    }
+  ],
+  "published_files": [
+    {
+      "source_file": "Proverbs/2026-03-29-proverbs-1.md",
       "public_file": "_studies/2026-03-29-proverbs-1.md",
+      "book_slug": "proverbs",
       "chapter": 1,
-      "date": "2026-03-29"
+      "date": "2026-03-29",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-03-30-proverbs-2.md",
-      "source_sha256": "aa92de65442aa0b66a49ba00d9c9c035e6c5126fb4ccaf9edec7423953fdad58",
+      "source_file": "Proverbs/2026-03-30-proverbs-2.md",
       "public_file": "_studies/2026-03-30-proverbs-2.md",
+      "book_slug": "proverbs",
       "chapter": 2,
-      "date": "2026-03-30"
+      "date": "2026-03-30",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-03-31-proverbs-3.md",
-      "source_sha256": "d3ee61b9173c034a620b69363dc18d9f6b90700e21a75ecdd9c13088cb33a3b1",
+      "source_file": "Proverbs/2026-03-31-proverbs-3.md",
       "public_file": "_studies/2026-03-31-proverbs-3.md",
+      "book_slug": "proverbs",
       "chapter": 3,
-      "date": "2026-03-31"
+      "date": "2026-03-31",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-01-proverbs-4.md",
-      "source_sha256": "2ac42da3c6f0f6aa9495ca81e5cd97798f423c68a9ae232fd7fc5b07d72045af",
+      "source_file": "Proverbs/2026-04-01-proverbs-4.md",
       "public_file": "_studies/2026-04-01-proverbs-4.md",
+      "book_slug": "proverbs",
       "chapter": 4,
-      "date": "2026-04-01"
+      "date": "2026-04-01",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-02-proverbs-5.md",
-      "source_sha256": "426d87516d55ff54f1e72b05efd1cf1ffb33dcbb5bdb9c48cc33e8473661f9a0",
+      "source_file": "Proverbs/2026-04-02-proverbs-5.md",
       "public_file": "_studies/2026-04-02-proverbs-5.md",
+      "book_slug": "proverbs",
       "chapter": 5,
-      "date": "2026-04-02"
+      "date": "2026-04-02",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-03-proverbs-6.md",
-      "source_sha256": "6df479fe82cd80dba151e7223714dca91f249656b74ea9fa097e1f565a6f6b0a",
+      "source_file": "Proverbs/2026-04-03-proverbs-6.md",
       "public_file": "_studies/2026-04-03-proverbs-6.md",
+      "book_slug": "proverbs",
       "chapter": 6,
-      "date": "2026-04-03"
+      "date": "2026-04-03",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-04-proverbs-7.md",
-      "source_sha256": "440094a8b9cb06bf0273047855acc659374cc844385d4569e70d809a560147c7",
+      "source_file": "Proverbs/2026-04-04-proverbs-7.md",
       "public_file": "_studies/2026-04-04-proverbs-7.md",
+      "book_slug": "proverbs",
       "chapter": 7,
-      "date": "2026-04-04"
+      "date": "2026-04-04",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-05-proverbs-8.md",
-      "source_sha256": "de95eaffa27693b05da7377532fde6bf2b56fa8aecb5ff7ca26e27af967a8309",
+      "source_file": "Proverbs/2026-04-05-proverbs-8.md",
       "public_file": "_studies/2026-04-05-proverbs-8.md",
+      "book_slug": "proverbs",
       "chapter": 8,
-      "date": "2026-04-05"
+      "date": "2026-04-05",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-06-proverbs-9.md",
-      "source_sha256": "387e03cb97664d528429d3b1cd181f97e1833de4000972a6c195c83278f88a76",
+      "source_file": "Proverbs/2026-04-06-proverbs-9.md",
       "public_file": "_studies/2026-04-06-proverbs-9.md",
+      "book_slug": "proverbs",
       "chapter": 9,
-      "date": "2026-04-06"
+      "date": "2026-04-06",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-07-proverbs-10.md",
-      "source_sha256": "99159bcc231543b88e015274fc65a584ae41bb4b202607849ee7e9b222770769",
+      "source_file": "Proverbs/2026-04-07-proverbs-10.md",
       "public_file": "_studies/2026-04-07-proverbs-10.md",
+      "book_slug": "proverbs",
       "chapter": 10,
-      "date": "2026-04-07"
+      "date": "2026-04-07",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-08-proverbs-11.md",
-      "source_sha256": "decb877fe50dc1264e7ec5dcf034c3a6a48c7a8f5d313d6ad5d2ce2dfcdb88e1",
+      "source_file": "Proverbs/2026-04-08-proverbs-11.md",
       "public_file": "_studies/2026-04-08-proverbs-11.md",
+      "book_slug": "proverbs",
       "chapter": 11,
-      "date": "2026-04-08"
+      "date": "2026-04-08",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-09-proverbs-12.md",
-      "source_sha256": "3d786bef9f38ccd3cb70c3f9f73f4c8544b623e63c3129661593e03c7b310af6",
+      "source_file": "Proverbs/2026-04-09-proverbs-12.md",
       "public_file": "_studies/2026-04-09-proverbs-12.md",
+      "book_slug": "proverbs",
       "chapter": 12,
-      "date": "2026-04-09"
+      "date": "2026-04-09",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-10-proverbs-13.md",
-      "source_sha256": "66f3e4ffc32a3a8c2ed5ec10afe4c7e21517f72340a252090b56eff50d568132",
+      "source_file": "Proverbs/2026-04-10-proverbs-13.md",
       "public_file": "_studies/2026-04-10-proverbs-13.md",
+      "book_slug": "proverbs",
       "chapter": 13,
-      "date": "2026-04-10"
+      "date": "2026-04-10",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-11-proverbs-14.md",
-      "source_sha256": "fc0eef83229577935b7b361b545b80a83840dd12a17ac72513f9237c5299bcb6",
+      "source_file": "Proverbs/2026-04-11-proverbs-14.md",
       "public_file": "_studies/2026-04-11-proverbs-14.md",
+      "book_slug": "proverbs",
       "chapter": 14,
-      "date": "2026-04-11"
+      "date": "2026-04-11",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-12-proverbs-15.md",
-      "source_sha256": "26d0ffe430a0369946f21774539041b807e3abb748fe2a8e67f396a7e329ecdf",
+      "source_file": "Proverbs/2026-04-12-proverbs-15.md",
       "public_file": "_studies/2026-04-12-proverbs-15.md",
+      "book_slug": "proverbs",
       "chapter": 15,
-      "date": "2026-04-12"
+      "date": "2026-04-12",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-13-proverbs-16.md",
-      "source_sha256": "a98b00f8c064a3fcdae532b28799ab368620a6b4ef6218571afda84cda347805",
+      "source_file": "Proverbs/2026-04-13-proverbs-16.md",
       "public_file": "_studies/2026-04-13-proverbs-16.md",
+      "book_slug": "proverbs",
       "chapter": 16,
-      "date": "2026-04-13"
+      "date": "2026-04-13",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-14-proverbs-17.md",
-      "source_sha256": "f6a82e8d9cb3be09a88d44db6e7fa26fab998bc7427b17ad9a7c09928f5e319d",
+      "source_file": "Proverbs/2026-04-14-proverbs-17.md",
       "public_file": "_studies/2026-04-14-proverbs-17.md",
+      "book_slug": "proverbs",
       "chapter": 17,
-      "date": "2026-04-14"
+      "date": "2026-04-14",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-15-proverbs-18.md",
-      "source_sha256": "dc8021cf37ca72894d047bbf2ab5744395bc256db1958906328145848356d1df",
+      "source_file": "Proverbs/2026-04-15-proverbs-18.md",
       "public_file": "_studies/2026-04-15-proverbs-18.md",
+      "book_slug": "proverbs",
       "chapter": 18,
-      "date": "2026-04-15"
+      "date": "2026-04-15",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-16-proverbs-19.md",
-      "source_sha256": "949ffa38003acc332bde96f73789eed0539f6dbfce3a6c5d960e9b24d1f635ea",
+      "source_file": "Proverbs/2026-04-16-proverbs-19.md",
       "public_file": "_studies/2026-04-16-proverbs-19.md",
+      "book_slug": "proverbs",
       "chapter": 19,
-      "date": "2026-04-16"
+      "date": "2026-04-16",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-17-proverbs-20.md",
-      "source_sha256": "160d2eaae6596489bc662051166a9dcb1e86f7c5f8a94606d8f1240d138193b1",
+      "source_file": "Proverbs/2026-04-17-proverbs-20.md",
       "public_file": "_studies/2026-04-17-proverbs-20.md",
+      "book_slug": "proverbs",
       "chapter": 20,
-      "date": "2026-04-17"
+      "date": "2026-04-17",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-18-proverbs-21.md",
-      "source_sha256": "395656f9858282576614ab47d0b062dd73e57e7769bcc37fc14e183597df2bf5",
+      "source_file": "Proverbs/2026-04-18-proverbs-21.md",
       "public_file": "_studies/2026-04-18-proverbs-21.md",
+      "book_slug": "proverbs",
       "chapter": 21,
-      "date": "2026-04-18"
+      "date": "2026-04-18",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-19-proverbs-22.md",
-      "source_sha256": "35e05c71953b44b10a226edb6483eaa7f61b99a738daa2a5b70ca846027f5452",
+      "source_file": "Proverbs/2026-04-19-proverbs-22.md",
       "public_file": "_studies/2026-04-19-proverbs-22.md",
+      "book_slug": "proverbs",
       "chapter": 22,
-      "date": "2026-04-19"
+      "date": "2026-04-19",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-20-proverbs-23.md",
-      "source_sha256": "22bbe91e288355d9cf6e0dfe063ec78341159cb424fc611e26453b48bdd6e91f",
+      "source_file": "Proverbs/2026-04-20-proverbs-23.md",
       "public_file": "_studies/2026-04-20-proverbs-23.md",
+      "book_slug": "proverbs",
       "chapter": 23,
-      "date": "2026-04-20"
+      "date": "2026-04-20",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-21-proverbs-24.md",
-      "source_sha256": "949e0b01c87de3c7ac4ac45bcc81387e7e886a16979c85e51547df179926ef3f",
+      "source_file": "Proverbs/2026-04-21-proverbs-24.md",
       "public_file": "_studies/2026-04-21-proverbs-24.md",
+      "book_slug": "proverbs",
       "chapter": 24,
-      "date": "2026-04-21"
+      "date": "2026-04-21",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-22-proverbs-25.md",
-      "source_sha256": "9ca06686c373b5f2c50b0f5b41a2f94bcf5430822fe80b764740f1c782bd7ea5",
+      "source_file": "Proverbs/2026-04-22-proverbs-25.md",
       "public_file": "_studies/2026-04-22-proverbs-25.md",
+      "book_slug": "proverbs",
       "chapter": 25,
-      "date": "2026-04-22"
+      "date": "2026-04-22",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-23-proverbs-26.md",
-      "source_sha256": "bbe1caa8d23eea3c874e6d48bc198c1d01b32d4020a08a0cb6c8d678a47c9202",
+      "source_file": "Proverbs/2026-04-23-proverbs-26.md",
       "public_file": "_studies/2026-04-23-proverbs-26.md",
+      "book_slug": "proverbs",
       "chapter": 26,
-      "date": "2026-04-23"
+      "date": "2026-04-23",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-24-proverbs-27.md",
-      "source_sha256": "cee13f04b4aaee3c25787236efb3a64bf658333c06fa5abe5d50b9c5bb67706f",
+      "source_file": "Proverbs/2026-04-24-proverbs-27.md",
       "public_file": "_studies/2026-04-24-proverbs-27.md",
+      "book_slug": "proverbs",
       "chapter": 27,
-      "date": "2026-04-24"
+      "date": "2026-04-24",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-25-proverbs-28.md",
-      "source_sha256": "a85ea1f98ca4375ef8c820d984a70573446018404e0273f74863b2383f22637b",
+      "source_file": "Proverbs/2026-04-25-proverbs-28.md",
       "public_file": "_studies/2026-04-25-proverbs-28.md",
+      "book_slug": "proverbs",
       "chapter": 28,
-      "date": "2026-04-25"
+      "date": "2026-04-25",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-26-proverbs-29.md",
-      "source_sha256": "4bba88a264578df6eae2fd73465ab092db1158cbad866dde5ca86b159ec53b2a",
+      "source_file": "Proverbs/2026-04-26-proverbs-29.md",
       "public_file": "_studies/2026-04-26-proverbs-29.md",
+      "book_slug": "proverbs",
       "chapter": 29,
-      "date": "2026-04-26"
+      "date": "2026-04-26",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-27-proverbs-30.md",
-      "source_sha256": "9633447919248710db92461e6b68f6ec171bdd78d38e75a7c86a06f9658da7f6",
+      "source_file": "Proverbs/2026-04-27-proverbs-30.md",
       "public_file": "_studies/2026-04-27-proverbs-30.md",
+      "book_slug": "proverbs",
       "chapter": 30,
-      "date": "2026-04-27"
+      "date": "2026-04-27",
+      "series_id": "proverbs-2026-s1"
     },
     {
-      "source_file": "2026-04-28-proverbs-31.md",
-      "source_sha256": "af950db4b767c41ff0fec226485bea4814c4c9537823a0c48310d23f577ada0a",
+      "source_file": "Proverbs/2026-04-28-proverbs-31.md",
       "public_file": "_studies/2026-04-28-proverbs-31.md",
+      "book_slug": "proverbs",
       "chapter": 31,
-      "date": "2026-04-28"
+      "date": "2026-04-28",
+      "series_id": "proverbs-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-23-ecclesiastes-1.md",
+      "public_file": "_studies/2026-05-23-ecclesiastes-1.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 1,
+      "date": "2026-05-23",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-24-ecclesiastes-2.md",
+      "public_file": "_studies/2026-05-24-ecclesiastes-2.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 2,
+      "date": "2026-05-24",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-25-ecclesiastes-3.md",
+      "public_file": "_studies/2026-05-25-ecclesiastes-3.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 3,
+      "date": "2026-05-25",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-26-ecclesiastes-4.md",
+      "public_file": "_studies/2026-05-26-ecclesiastes-4.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 4,
+      "date": "2026-05-26",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-27-ecclesiastes-5.md",
+      "public_file": "_studies/2026-05-27-ecclesiastes-5.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 5,
+      "date": "2026-05-27",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-28-ecclesiastes-6.md",
+      "public_file": "_studies/2026-05-28-ecclesiastes-6.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 6,
+      "date": "2026-05-28",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-29-ecclesiastes-7.md",
+      "public_file": "_studies/2026-05-29-ecclesiastes-7.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 7,
+      "date": "2026-05-29",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-30-ecclesiastes-8.md",
+      "public_file": "_studies/2026-05-30-ecclesiastes-8.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 8,
+      "date": "2026-05-30",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-05-31-ecclesiastes-9.md",
+      "public_file": "_studies/2026-05-31-ecclesiastes-9.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 9,
+      "date": "2026-05-31",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-06-01-ecclesiastes-10.md",
+      "public_file": "_studies/2026-06-01-ecclesiastes-10.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 10,
+      "date": "2026-06-01",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-06-02-ecclesiastes-11.md",
+      "public_file": "_studies/2026-06-02-ecclesiastes-11.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 11,
+      "date": "2026-06-02",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Ecclesiastes/2026-06-03-ecclesiastes-12.md",
+      "public_file": "_studies/2026-06-03-ecclesiastes-12.md",
+      "book_slug": "ecclesiastes",
+      "chapter": 12,
+      "date": "2026-06-03",
+      "series_id": "ecclesiastes-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-05-job-1.md",
+      "public_file": "_studies/2026-06-05-job-1.md",
+      "book_slug": "job",
+      "chapter": 1,
+      "date": "2026-06-05",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-06-job-2.md",
+      "public_file": "_studies/2026-06-06-job-2.md",
+      "book_slug": "job",
+      "chapter": 2,
+      "date": "2026-06-06",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-07-job-3.md",
+      "public_file": "_studies/2026-06-07-job-3.md",
+      "book_slug": "job",
+      "chapter": 3,
+      "date": "2026-06-07",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-08-job-4.md",
+      "public_file": "_studies/2026-06-08-job-4.md",
+      "book_slug": "job",
+      "chapter": 4,
+      "date": "2026-06-08",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-09-job-5.md",
+      "public_file": "_studies/2026-06-09-job-5.md",
+      "book_slug": "job",
+      "chapter": 5,
+      "date": "2026-06-09",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-10-job-6.md",
+      "public_file": "_studies/2026-06-10-job-6.md",
+      "book_slug": "job",
+      "chapter": 6,
+      "date": "2026-06-10",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-11-job-7.md",
+      "public_file": "_studies/2026-06-11-job-7.md",
+      "book_slug": "job",
+      "chapter": 7,
+      "date": "2026-06-11",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-12-job-8.md",
+      "public_file": "_studies/2026-06-12-job-8.md",
+      "book_slug": "job",
+      "chapter": 8,
+      "date": "2026-06-12",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-13-job-9.md",
+      "public_file": "_studies/2026-06-13-job-9.md",
+      "book_slug": "job",
+      "chapter": 9,
+      "date": "2026-06-13",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-14-job-10.md",
+      "public_file": "_studies/2026-06-14-job-10.md",
+      "book_slug": "job",
+      "chapter": 10,
+      "date": "2026-06-14",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-15-job-11.md",
+      "public_file": "_studies/2026-06-15-job-11.md",
+      "book_slug": "job",
+      "chapter": 11,
+      "date": "2026-06-15",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-16-job-12.md",
+      "public_file": "_studies/2026-06-16-job-12.md",
+      "book_slug": "job",
+      "chapter": 12,
+      "date": "2026-06-16",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-17-job-13.md",
+      "public_file": "_studies/2026-06-17-job-13.md",
+      "book_slug": "job",
+      "chapter": 13,
+      "date": "2026-06-17",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-18-job-14.md",
+      "public_file": "_studies/2026-06-18-job-14.md",
+      "book_slug": "job",
+      "chapter": 14,
+      "date": "2026-06-18",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-19-job-15.md",
+      "public_file": "_studies/2026-06-19-job-15.md",
+      "book_slug": "job",
+      "chapter": 15,
+      "date": "2026-06-19",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-20-job-16.md",
+      "public_file": "_studies/2026-06-20-job-16.md",
+      "book_slug": "job",
+      "chapter": 16,
+      "date": "2026-06-20",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-21-job-17.md",
+      "public_file": "_studies/2026-06-21-job-17.md",
+      "book_slug": "job",
+      "chapter": 17,
+      "date": "2026-06-21",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-22-job-18.md",
+      "public_file": "_studies/2026-06-22-job-18.md",
+      "book_slug": "job",
+      "chapter": 18,
+      "date": "2026-06-22",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-23-job-19.md",
+      "public_file": "_studies/2026-06-23-job-19.md",
+      "book_slug": "job",
+      "chapter": 19,
+      "date": "2026-06-23",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-24-job-20.md",
+      "public_file": "_studies/2026-06-24-job-20.md",
+      "book_slug": "job",
+      "chapter": 20,
+      "date": "2026-06-24",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-25-job-21.md",
+      "public_file": "_studies/2026-06-25-job-21.md",
+      "book_slug": "job",
+      "chapter": 21,
+      "date": "2026-06-25",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-26-job-22.md",
+      "public_file": "_studies/2026-06-26-job-22.md",
+      "book_slug": "job",
+      "chapter": 22,
+      "date": "2026-06-26",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-27-job-23.md",
+      "public_file": "_studies/2026-06-27-job-23.md",
+      "book_slug": "job",
+      "chapter": 23,
+      "date": "2026-06-27",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-28-job-24.md",
+      "public_file": "_studies/2026-06-28-job-24.md",
+      "book_slug": "job",
+      "chapter": 24,
+      "date": "2026-06-28",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-29-job-25.md",
+      "public_file": "_studies/2026-06-29-job-25.md",
+      "book_slug": "job",
+      "chapter": 25,
+      "date": "2026-06-29",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-06-30-job-26.md",
+      "public_file": "_studies/2026-06-30-job-26.md",
+      "book_slug": "job",
+      "chapter": 26,
+      "date": "2026-06-30",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-01-job-27.md",
+      "public_file": "_studies/2026-07-01-job-27.md",
+      "book_slug": "job",
+      "chapter": 27,
+      "date": "2026-07-01",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-02-job-28.md",
+      "public_file": "_studies/2026-07-02-job-28.md",
+      "book_slug": "job",
+      "chapter": 28,
+      "date": "2026-07-02",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-03-job-29.md",
+      "public_file": "_studies/2026-07-03-job-29.md",
+      "book_slug": "job",
+      "chapter": 29,
+      "date": "2026-07-03",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-04-job-30.md",
+      "public_file": "_studies/2026-07-04-job-30.md",
+      "book_slug": "job",
+      "chapter": 30,
+      "date": "2026-07-04",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-05-job-31.md",
+      "public_file": "_studies/2026-07-05-job-31.md",
+      "book_slug": "job",
+      "chapter": 31,
+      "date": "2026-07-05",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-06-job-32.md",
+      "public_file": "_studies/2026-07-06-job-32.md",
+      "book_slug": "job",
+      "chapter": 32,
+      "date": "2026-07-06",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-07-job-33.md",
+      "public_file": "_studies/2026-07-07-job-33.md",
+      "book_slug": "job",
+      "chapter": 33,
+      "date": "2026-07-07",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-08-job-34.md",
+      "public_file": "_studies/2026-07-08-job-34.md",
+      "book_slug": "job",
+      "chapter": 34,
+      "date": "2026-07-08",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-09-job-35.md",
+      "public_file": "_studies/2026-07-09-job-35.md",
+      "book_slug": "job",
+      "chapter": 35,
+      "date": "2026-07-09",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-10-job-36.md",
+      "public_file": "_studies/2026-07-10-job-36.md",
+      "book_slug": "job",
+      "chapter": 36,
+      "date": "2026-07-10",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-11-job-37.md",
+      "public_file": "_studies/2026-07-11-job-37.md",
+      "book_slug": "job",
+      "chapter": 37,
+      "date": "2026-07-11",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-12-job-38.md",
+      "public_file": "_studies/2026-07-12-job-38.md",
+      "book_slug": "job",
+      "chapter": 38,
+      "date": "2026-07-12",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-13-job-39.md",
+      "public_file": "_studies/2026-07-13-job-39.md",
+      "book_slug": "job",
+      "chapter": 39,
+      "date": "2026-07-13",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-14-job-40.md",
+      "public_file": "_studies/2026-07-14-job-40.md",
+      "book_slug": "job",
+      "chapter": 40,
+      "date": "2026-07-14",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-15-job-41.md",
+      "public_file": "_studies/2026-07-15-job-41.md",
+      "book_slug": "job",
+      "chapter": 41,
+      "date": "2026-07-15",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "Job/2026-07-16-job-42.md",
+      "public_file": "_studies/2026-07-16-job-42.md",
+      "book_slug": "job",
+      "chapter": 42,
+      "date": "2026-07-16",
+      "series_id": "job-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-01-john-1.md",
+      "public_file": "_studies/2026-05-01-john-1.md",
+      "book_slug": "john",
+      "chapter": 1,
+      "date": "2026-05-01",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-02-john-2.md",
+      "public_file": "_studies/2026-05-02-john-2.md",
+      "book_slug": "john",
+      "chapter": 2,
+      "date": "2026-05-02",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-04-john-4.md",
+      "public_file": "_studies/2026-05-04-john-4.md",
+      "book_slug": "john",
+      "chapter": 4,
+      "date": "2026-05-04",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-05-john-5.md",
+      "public_file": "_studies/2026-05-05-john-5.md",
+      "book_slug": "john",
+      "chapter": 5,
+      "date": "2026-05-05",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-06-john-6.md",
+      "public_file": "_studies/2026-05-06-john-6.md",
+      "book_slug": "john",
+      "chapter": 6,
+      "date": "2026-05-06",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-07-john-7.md",
+      "public_file": "_studies/2026-05-07-john-7.md",
+      "book_slug": "john",
+      "chapter": 7,
+      "date": "2026-05-07",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-08-john-8.md",
+      "public_file": "_studies/2026-05-08-john-8.md",
+      "book_slug": "john",
+      "chapter": 8,
+      "date": "2026-05-08",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-09-john-9.md",
+      "public_file": "_studies/2026-05-09-john-9.md",
+      "book_slug": "john",
+      "chapter": 9,
+      "date": "2026-05-09",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-10-john-10.md",
+      "public_file": "_studies/2026-05-10-john-10.md",
+      "book_slug": "john",
+      "chapter": 10,
+      "date": "2026-05-10",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-11-john-11.md",
+      "public_file": "_studies/2026-05-11-john-11.md",
+      "book_slug": "john",
+      "chapter": 11,
+      "date": "2026-05-11",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-12-john-12.md",
+      "public_file": "_studies/2026-05-12-john-12.md",
+      "book_slug": "john",
+      "chapter": 12,
+      "date": "2026-05-12",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-13-john-13.md",
+      "public_file": "_studies/2026-05-13-john-13.md",
+      "book_slug": "john",
+      "chapter": 13,
+      "date": "2026-05-13",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-14-john-14.md",
+      "public_file": "_studies/2026-05-14-john-14.md",
+      "book_slug": "john",
+      "chapter": 14,
+      "date": "2026-05-14",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-15-john-15.md",
+      "public_file": "_studies/2026-05-15-john-15.md",
+      "book_slug": "john",
+      "chapter": 15,
+      "date": "2026-05-15",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-16-john-16.md",
+      "public_file": "_studies/2026-05-16-john-16.md",
+      "book_slug": "john",
+      "chapter": 16,
+      "date": "2026-05-16",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-17-john-17.md",
+      "public_file": "_studies/2026-05-17-john-17.md",
+      "book_slug": "john",
+      "chapter": 17,
+      "date": "2026-05-17",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-18-john-18.md",
+      "public_file": "_studies/2026-05-18-john-18.md",
+      "book_slug": "john",
+      "chapter": 18,
+      "date": "2026-05-18",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-19-john-19.md",
+      "public_file": "_studies/2026-05-19-john-19.md",
+      "book_slug": "john",
+      "chapter": 19,
+      "date": "2026-05-19",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-20-john-20.md",
+      "public_file": "_studies/2026-05-20-john-20.md",
+      "book_slug": "john",
+      "chapter": 20,
+      "date": "2026-05-20",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-05-21-john-21.md",
+      "public_file": "_studies/2026-05-21-john-21.md",
+      "book_slug": "john",
+      "chapter": 21,
+      "date": "2026-05-21",
+      "series_id": "john-2026-s1"
+    },
+    {
+      "source_file": "John/2026-07-17-john-1.md",
+      "public_file": "_studies/2026-07-17-john-1.md",
+      "book_slug": "john",
+      "chapter": 1,
+      "date": "2026-07-17",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-18-john-2.md",
+      "public_file": "_studies/2026-07-18-john-2.md",
+      "book_slug": "john",
+      "chapter": 2,
+      "date": "2026-07-18",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-19-john-3.md",
+      "public_file": "_studies/2026-07-19-john-3.md",
+      "book_slug": "john",
+      "chapter": 3,
+      "date": "2026-07-19",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-20-john-4.md",
+      "public_file": "_studies/2026-07-20-john-4.md",
+      "book_slug": "john",
+      "chapter": 4,
+      "date": "2026-07-20",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-21-john-5.md",
+      "public_file": "_studies/2026-07-21-john-5.md",
+      "book_slug": "john",
+      "chapter": 5,
+      "date": "2026-07-21",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-22-john-6.md",
+      "public_file": "_studies/2026-07-22-john-6.md",
+      "book_slug": "john",
+      "chapter": 6,
+      "date": "2026-07-22",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-23-john-7.md",
+      "public_file": "_studies/2026-07-23-john-7.md",
+      "book_slug": "john",
+      "chapter": 7,
+      "date": "2026-07-23",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-24-john-8.md",
+      "public_file": "_studies/2026-07-24-john-8.md",
+      "book_slug": "john",
+      "chapter": 8,
+      "date": "2026-07-24",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-25-john-9.md",
+      "public_file": "_studies/2026-07-25-john-9.md",
+      "book_slug": "john",
+      "chapter": 9,
+      "date": "2026-07-25",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-26-john-10.md",
+      "public_file": "_studies/2026-07-26-john-10.md",
+      "book_slug": "john",
+      "chapter": 10,
+      "date": "2026-07-26",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-27-john-11.md",
+      "public_file": "_studies/2026-07-27-john-11.md",
+      "book_slug": "john",
+      "chapter": 11,
+      "date": "2026-07-27",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-28-john-12.md",
+      "public_file": "_studies/2026-07-28-john-12.md",
+      "book_slug": "john",
+      "chapter": 12,
+      "date": "2026-07-28",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-29-john-13.md",
+      "public_file": "_studies/2026-07-29-john-13.md",
+      "book_slug": "john",
+      "chapter": 13,
+      "date": "2026-07-29",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-30-john-14.md",
+      "public_file": "_studies/2026-07-30-john-14.md",
+      "book_slug": "john",
+      "chapter": 14,
+      "date": "2026-07-30",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-07-31-john-15.md",
+      "public_file": "_studies/2026-07-31-john-15.md",
+      "book_slug": "john",
+      "chapter": 15,
+      "date": "2026-07-31",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-08-01-john-16.md",
+      "public_file": "_studies/2026-08-01-john-16.md",
+      "book_slug": "john",
+      "chapter": 16,
+      "date": "2026-08-01",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-08-02-john-17.md",
+      "public_file": "_studies/2026-08-02-john-17.md",
+      "book_slug": "john",
+      "chapter": 17,
+      "date": "2026-08-02",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-08-03-john-18.md",
+      "public_file": "_studies/2026-08-03-john-18.md",
+      "book_slug": "john",
+      "chapter": 18,
+      "date": "2026-08-03",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-08-04-john-19.md",
+      "public_file": "_studies/2026-08-04-john-19.md",
+      "book_slug": "john",
+      "chapter": 19,
+      "date": "2026-08-04",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-08-05-john-20.md",
+      "public_file": "_studies/2026-08-05-john-20.md",
+      "book_slug": "john",
+      "chapter": 20,
+      "date": "2026-08-05",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "John/2026-08-06-john-21.md",
+      "public_file": "_studies/2026-08-06-john-21.md",
+      "book_slug": "john",
+      "chapter": 21,
+      "date": "2026-08-06",
+      "series_id": "john-2026-s2"
+    },
+    {
+      "source_file": "Acts/2026-08-07-acts-1.md",
+      "public_file": "_studies/2026-08-07-acts-1.md",
+      "book_slug": "acts",
+      "chapter": 1,
+      "date": "2026-08-07",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-08-acts-2.md",
+      "public_file": "_studies/2026-08-08-acts-2.md",
+      "book_slug": "acts",
+      "chapter": 2,
+      "date": "2026-08-08",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-09-acts-3.md",
+      "public_file": "_studies/2026-08-09-acts-3.md",
+      "book_slug": "acts",
+      "chapter": 3,
+      "date": "2026-08-09",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-10-acts-4.md",
+      "public_file": "_studies/2026-08-10-acts-4.md",
+      "book_slug": "acts",
+      "chapter": 4,
+      "date": "2026-08-10",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-11-acts-5.md",
+      "public_file": "_studies/2026-08-11-acts-5.md",
+      "book_slug": "acts",
+      "chapter": 5,
+      "date": "2026-08-11",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-12-acts-6.md",
+      "public_file": "_studies/2026-08-12-acts-6.md",
+      "book_slug": "acts",
+      "chapter": 6,
+      "date": "2026-08-12",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-13-acts-7.md",
+      "public_file": "_studies/2026-08-13-acts-7.md",
+      "book_slug": "acts",
+      "chapter": 7,
+      "date": "2026-08-13",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-14-acts-8.md",
+      "public_file": "_studies/2026-08-14-acts-8.md",
+      "book_slug": "acts",
+      "chapter": 8,
+      "date": "2026-08-14",
+      "series_id": "acts-2026-s1"
     }
   ]
 }
