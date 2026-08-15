@@ -3,9 +3,12 @@ from pathlib import Path
 import hashlib,json,os,re,sys
 ROOT=Path(__file__).resolve().parents[1];SOURCE=Path(os.environ.get('BIBLE_STUDY_SOURCE',Path.home()/'bible/2026'));errors=[]
 studies=sorted((ROOT/'_studies').glob('*.md'));manifest=json.loads((ROOT/'_data/source-manifest.json').read_text());books=json.loads((ROOT/'_data/books.json').read_text())
-if manifest.get('source_count')!=137:errors.append(f"source_count={manifest.get('source_count')}")
-if manifest.get('published_count')!=136:errors.append(f"published_count={manifest.get('published_count')}")
-if len(studies)!=136:errors.append(f"study files={len(studies)}")
+source_files=manifest.get('source_files',[]);published_files=manifest.get('published_files',[]);omitted=manifest.get('omitted',[])
+actual_sources=sorted(SOURCE.glob('*/*.md'))
+if manifest.get('source_count')!=len(source_files) or len(source_files)!=len(actual_sources):errors.append(f"source_count={manifest.get('source_count')}/{len(source_files)}/{len(actual_sources)}")
+if manifest.get('published_count')!=len(published_files):errors.append(f"published_count={manifest.get('published_count')}/{len(published_files)}")
+if len(studies)!=len(published_files):errors.append(f"study files={len(studies)}/{len(published_files)}")
+if len(published_files)+len(omitted)!=len(source_files):errors.append('source/public/omitted count mismatch')
 if len(manifest.get('omitted',[]))!=1 or '2026-04-30-john-1.md' not in manifest['omitted'][0]['source_file']:errors.append('expected John duplicate omission missing')
 counts={}
 for p in studies:
@@ -18,7 +21,8 @@ for p in studies:
  if re.search(r'^#\s+',text,re.M):errors.append(f"duplicate source H1:{p.name}")
  for line in text.splitlines():
   if ('NKRV:' in line or 'ESV:' in line) and len(line)>500:errors.append(f"overlong quotation:{p.name}")
-expected={'proverbs':31,'ecclesiastes':12,'job':42,'john':41,'acts':10}
+acts_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Acts').glob('*-acts-*.md')]
+expected={'proverbs':31,'ecclesiastes':12,'job':42,'john':41,'acts':max(acts_chapters)}
 if counts!=expected:errors.append(f"counts={counts}")
 for item in manifest['source_files']:
  p=SOURCE/item['source_file']
@@ -27,4 +31,4 @@ if len(books)!=5:errors.append('books data count')
 for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
  if not (ROOT/required).exists():errors.append('missing:'+required)
 if errors:print('\\n'.join('FAIL: '+x for x in errors[:80]));sys.exit(1)
-print('SOURCE_AND_CONTENT_TESTS_PASS source=137 published=136 books=5 duplicate_omitted=1')
+print(f"SOURCE_AND_CONTENT_TESTS_PASS source={len(source_files)} published={len(published_files)} books=5 duplicate_omitted=1")
