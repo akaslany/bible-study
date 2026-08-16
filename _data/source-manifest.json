@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 137,
-  "published_count": 136,
+  "source_count": 138,
+  "published_count": 137,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -560,6 +560,10 @@
     {
       "source_file": "Acts/2026-08-16-acts-10.md",
       "source_sha256": "b5e7193527f1fb901cdcf38d9883c3e67cdceda962df5532475fa74a01e535cc"
+    },
+    {
+      "source_file": "Acts/2026-08-17-acts-11.md",
+      "source_sha256": "00c26a8154e3da4aa74067eb860ee043ccb4acdc855209235469450eede0252c"
     }
   ],
   "published_files": [
@@ -1649,6 +1653,14 @@
       "book_slug": "acts",
       "chapter": 10,
       "date": "2026-08-16",
+      "series_id": "acts-2026-s1"
+    },
+    {
+      "source_file": "Acts/2026-08-17-acts-11.md",
+      "public_file": "_studies/2026-08-17-acts-11.md",
+      "book_slug": "acts",
+      "chapter": 11,
+      "date": "2026-08-17",
       "series_id": "acts-2026-s1"
     }
   ]
