@@ -27,7 +27,10 @@ for p in htmls:
   if path.endswith('/') or not target.suffix:target=target/'index.html'
   if not target.exists():errors.append(f"broken:{p}:{href}")
 latest_rel=latest_acts['public_file'].replace('_studies/','studies/').replace('.md','/index.html')
-for rel,markers in {'index.html':['성경별 공부','사도행전','최근 공부'],'books/index.html':['잠언','전도서','욥기','요한복음','사도행전'],'proverbs/index.html':['잠언 첫 번째 읽기'],'books/john/index.html':['요한복음 첫 번째 읽기','20개 기록 · 3장 없음','요한복음 두 번째 읽기'],'books/acts/index.html':[f"{acts['latest_chapter']}장까지"],latest_rel:[f"사도행전 {acts['latest_chapter']}장 묵상",'현재까지 기록','인용 안내']}.items():
+acts_complete=acts['complete_series']>0 and acts['latest_chapter']==acts['expected_chapters'] and acts['status'].startswith('완독')
+acts_index_markers=[f"{acts['records']}개의 공개 공부 기록",'완독' if acts_complete else f"{acts['latest_chapter']}장까지"]
+acts_latest_state=f"사도행전 {acts['expected_chapters']}장 완독 ✓" if acts_complete else '현재까지 기록'
+for rel,markers in {'index.html':['성경별 공부','사도행전','최근 공부'],'books/index.html':['잠언','전도서','욥기','요한복음','사도행전'],'proverbs/index.html':['잠언 첫 번째 읽기'],'books/john/index.html':['요한복음 첫 번째 읽기','20개 기록 · 3장 없음','요한복음 두 번째 읽기'],'books/acts/index.html':acts_index_markers,latest_rel:[f"사도행전 {acts['latest_chapter']}장 묵상",acts_latest_state,'인용 안내']}.items():
  p=SITE/rel
  if not p.exists():errors.append('missing page:'+rel);continue
  t=p.read_text()
