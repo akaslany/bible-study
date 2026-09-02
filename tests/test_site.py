@@ -22,13 +22,16 @@ for p in studies:
  for line in text.splitlines():
   if ('NKRV:' in line or 'ESV:' in line) and len(line)>500:errors.append(f"overlong quotation:{p.name}")
 acts_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Acts').glob('*-acts-*.md')]
+romans_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Romans').glob('*-romans-*.md')]
 expected={'proverbs':31,'ecclesiastes':12,'job':42,'john':41,'acts':max(acts_chapters)}
+if romans_chapters:expected['romans']=max(romans_chapters)
 if counts!=expected:errors.append(f"counts={counts}")
 for item in manifest['source_files']:
  p=SOURCE/item['source_file']
  if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest()!=item['source_sha256']:errors.append(f"source hash:{p}")
-if len(books)!=5:errors.append('books data count')
-for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
+expected_book_count=5+(1 if romans_chapters else 0)
+if len(books)!=expected_book_count:errors.append(f'books data count={len(books)}/{expected_book_count}')
+for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','romans.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
  if not (ROOT/required).exists():errors.append('missing:'+required)
 if errors:print('\\n'.join('FAIL: '+x for x in errors[:80]));sys.exit(1)
-print(f"SOURCE_AND_CONTENT_TESTS_PASS source={len(source_files)} published={len(published_files)} books=5 duplicate_omitted=1")
+print(f"SOURCE_AND_CONTENT_TESTS_PASS source={len(source_files)} published={len(published_files)} books={len(books)} duplicate_omitted=1")

@@ -11,6 +11,7 @@ BOOKS={
  "Job":{"slug":"job","ko":"욥기","en":"JOB","chapters":42,"description":"설명되지 않는 고난 속에서 하나님을 신뢰하는 길"},
  "John":{"slug":"john","ko":"요한복음","en":"JOHN","chapters":21,"description":"말씀이 육신이 되어 오신 예수 그리스도를 만나는 기록"},
  "Acts":{"slug":"acts","ko":"사도행전","en":"ACTS","chapters":28,"description":"성령 안에서 복음이 예루살렘에서 땅끝으로 확장되는 여정"},
+ "Romans":{"slug":"romans","ko":"로마서","en":"ROMANS","chapters":16,"description":"복음 안에 나타난 하나님의 의와 그 은혜에 합당한 삶"},
 }
 SECTION_TERMS={1:"오늘의 본문",2:"핵심 구절",3:"구조 분석",4:"해석",5:"삶 적용",6:"묵상/기도",7:"한눈에 보는 요약"}
 AUTOMATION_LINES=("저장 파일명:","다음에는 성경 어느 장을 읽을까요?","까지 완료했습니다. 다음에는 성경 어느 장을 읽을까요?")
@@ -136,6 +137,7 @@ def main():
  book_data=[]
  for folder,cfg in BOOKS.items():
   rows=[x for x in kept if x['folder']==folder];series_ids=[]
+  if not rows:continue
   for x in rows:
    if x['series_id'] not in series_ids:series_ids.append(x['series_id'])
   complete_count=sum(1 for sid in series_ids if next(x for x in rows if x['series_id']==sid)['series_complete'])
@@ -146,6 +148,6 @@ def main():
   book_data.append({'name':cfg['ko'],'slug':cfg['slug'],'en':cfg['en'],'description':cfg['description'],'expected_chapters':cfg['chapters'],'records':len(rows),'series_count':len(series_ids),'complete_series':complete_count,'status':status,'url':url,'latest_chapter':latest_ch})
  args.manifest.parent.mkdir(parents=True,exist_ok=True);args.manifest.write_text(json.dumps({'source_root':'private Bible archive','source_count':len(source_manifest),'published_count':len(public_manifest),'omitted':omitted,'public_transformations':['automation metadata removed','quotation lines over 500 characters replaced by chapter-and-verse reference'],'source_files':source_manifest,'published_files':public_manifest},ensure_ascii=False,indent=2)+"\n")
  (args.manifest.parent/'books.json').write_text(json.dumps(book_data,ensure_ascii=False,indent=2)+"\n")
- print(f"IMPORTED source={len(source_manifest)} published={len(public_manifest)} omitted={len(omitted)} books={len(BOOKS)} SOURCE_UNCHANGED")
+ print(f"IMPORTED source={len(source_manifest)} published={len(public_manifest)} omitted={len(omitted)} books={len(book_data)} SOURCE_UNCHANGED")
 
 if __name__=="__main__":main()

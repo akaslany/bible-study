@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 import json,sys
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'_site';errors=[]
 manifest=json.loads((ROOT/'_data/source-manifest.json').read_text());books=json.loads((ROOT/'_data/books.json').read_text())
-study_count=manifest['published_count'];acts=next(x for x in books if x['slug']=='acts');latest_acts=next(x for x in reversed(manifest['published_files']) if x['book_slug']=='acts')
+study_count=manifest['published_count'];latest=max(manifest['published_files'],key=lambda x:(x['date'],x['chapter']));latest_book=next(x for x in books if x['slug']==latest['book_slug'])
 class Links(HTMLParser):
  def __init__(self):super().__init__();self.links=[]
  def handle_starttag(self,tag,attrs):
@@ -26,11 +26,13 @@ for p in htmls:
   target=SITE/path.lstrip('/')
   if path.endswith('/') or not target.suffix:target=target/'index.html'
   if not target.exists():errors.append(f"broken:{p}:{href}")
-latest_rel=latest_acts['public_file'].replace('_studies/','studies/').replace('.md','/index.html')
-acts_complete=acts['complete_series']>0 and acts['latest_chapter']==acts['expected_chapters'] and acts['status'].startswith('완독')
-acts_index_markers=[f"{acts['records']}개의 공개 공부 기록",'완독' if acts_complete else f"{acts['latest_chapter']}장까지"]
-acts_latest_state=f"사도행전 {acts['expected_chapters']}장 완독 ✓" if acts_complete else '현재까지 기록'
-for rel,markers in {'index.html':['성경별 공부','사도행전','최근 공부'],'books/index.html':['잠언','전도서','욥기','요한복음','사도행전'],'proverbs/index.html':['잠언 첫 번째 읽기'],'books/john/index.html':['요한복음 첫 번째 읽기','20개 기록 · 3장 없음','요한복음 두 번째 읽기'],'books/acts/index.html':acts_index_markers,latest_rel:[f"사도행전 {acts['latest_chapter']}장 묵상",acts_latest_state,'인용 안내']}.items():
+latest_rel=latest['public_file'].replace('_studies/','studies/').replace('.md','/index.html')
+latest_complete=latest_book['complete_series']>0 and latest_book['latest_chapter']==latest_book['expected_chapters'] and latest_book['status'].startswith('완독')
+latest_book_rel='proverbs/index.html' if latest['book_slug']=='proverbs' else f"books/{latest['book_slug']}/index.html"
+latest_index_markers=[f"{latest_book['records']}개의 공개 공부 기록",'완독' if latest_complete else f"{latest_book['latest_chapter']}장까지"]
+latest_state=f"{latest_book['name']} {latest_book['expected_chapters']}장 완독 ✓" if latest_complete else '현재까지 기록'
+book_names=[x['name'] for x in books]
+for rel,markers in {'index.html':['성경별 공부',latest_book['name'],'최근 공부'],'books/index.html':book_names,'proverbs/index.html':['잠언 첫 번째 읽기'],'books/john/index.html':['요한복음 첫 번째 읽기','20개 기록 · 3장 없음','요한복음 두 번째 읽기'],latest_book_rel:latest_index_markers,latest_rel:[f"{latest_book['name']} {latest['chapter']}장 묵상",latest_state,'인용 안내']}.items():
  p=SITE/rel
  if not p.exists():errors.append('missing page:'+rel);continue
  t=p.read_text()
