@@ -57,11 +57,11 @@
     "en": "ACTS",
     "description": "성령 안에서 복음이 예루살렘에서 땅끝으로 확장되는 여정",
     "expected_chapters": 28,
-    "records": 27,
+    "records": 28,
     "series_count": 1,
-    "complete_series": 0,
-    "status": "진행 중 · 27 / 28장",
+    "complete_series": 1,
+    "status": "완독",
     "url": "/books/acts/",
-    "latest_chapter": 27
+    "latest_chapter": 28
   }
 ]

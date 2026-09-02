@@ -4,7 +4,7 @@
 
 - 공개 주소: https://akaslany.github.io/bible-study/
 - 구성: Jekyll `studies` collection
-- 공개 기록: 153개(잠언 31, 전도서 12, 욥기 42, 요한복음 41, 사도행전 27)
+- 공개 기록: 154개(잠언 31, 전도서 12, 욥기 42, 요한복음 41, 사도행전 28)
 
 ## 원본 갱신
 
