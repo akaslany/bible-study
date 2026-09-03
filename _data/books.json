@@ -63,5 +63,18 @@
     "status": "완독",
     "url": "/books/acts/",
     "latest_chapter": 28
+  },
+  {
+    "name": "로마서",
+    "slug": "romans",
+    "en": "ROMANS",
+    "description": "복음 안에 나타난 하나님의 의와 그 은혜에 합당한 삶",
+    "expected_chapters": 16,
+    "records": 1,
+    "series_count": 1,
+    "complete_series": 0,
+    "status": "진행 중 · 1 / 16장",
+    "url": "/books/romans/",
+    "latest_chapter": 1
   }
 ]
