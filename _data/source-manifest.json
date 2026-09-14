@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 166,
-  "published_count": 165,
+  "source_count": 167,
+  "published_count": 166,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -676,6 +676,10 @@
     {
       "source_file": "Romans/2026-09-14-romans-11.md",
       "source_sha256": "f63f42bcead68f66a9eb9a2438385c307d4cf0ab02229c2ba35e960e055f62e6"
+    },
+    {
+      "source_file": "Romans/2026-09-15-romans-12.md",
+      "source_sha256": "8128451699858f1e45b738965299c20c356293967b7e6e8f44a2968a2296e217"
     }
   ],
   "published_files": [
@@ -1997,6 +2001,14 @@
       "book_slug": "romans",
       "chapter": 11,
       "date": "2026-09-14",
+      "series_id": "romans-2026-s1"
+    },
+    {
+      "source_file": "Romans/2026-09-15-romans-12.md",
+      "public_file": "_studies/2026-09-15-romans-12.md",
+      "book_slug": "romans",
+      "chapter": 12,
+      "date": "2026-09-15",
       "series_id": "romans-2026-s1"
     }
   ]
