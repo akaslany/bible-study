@@ -76,5 +76,18 @@
     "status": "완독",
     "url": "/books/romans/",
     "latest_chapter": 16
+  },
+  {
+    "name": "고린도전서",
+    "slug": "first-corinthians",
+    "en": "1 CORINTHIANS",
+    "description": "십자가의 지혜로 분열을 넘어 거룩한 공동체를 세우는 말씀",
+    "expected_chapters": 16,
+    "records": 0,
+    "series_count": 0,
+    "complete_series": 0,
+    "status": "준비 중",
+    "url": "/books/first-corinthians/",
+    "latest_chapter": 0
   }
 ]

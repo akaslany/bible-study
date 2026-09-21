@@ -32,7 +32,10 @@ latest_book_rel='proverbs/index.html' if latest['book_slug']=='proverbs' else f"
 latest_index_markers=[f"{latest_book['records']}개의 공개 공부 기록",'완독' if latest_complete else f"{latest_book['latest_chapter']}장까지"]
 latest_state=f"{latest_book['name']} {latest_book['expected_chapters']}장 완독 ✓" if latest_complete else '현재까지 기록'
 book_names=[x['name'] for x in books]
-for rel,markers in {'index.html':['성경별 공부',latest_book['name'],'최근 공부'],'books/index.html':book_names,'proverbs/index.html':['잠언 첫 번째 읽기'],'books/john/index.html':['요한복음 첫 번째 읽기','20개 기록 · 3장 없음','요한복음 두 번째 읽기'],latest_book_rel:latest_index_markers,latest_rel:[f"{latest_book['name']} {latest['chapter']}장 묵상",latest_state,'인용 안내']}.items():
+first_corinthians=next(x for x in books if x['slug']=='first-corinthians')
+first_corinthians_markers=['고린도전서',f"{first_corinthians['records']}개의 공개 공부 기록"]
+if first_corinthians['records']==0:first_corinthians_markers.append('첫 묵상 기록을 준비하고 있습니다')
+for rel,markers in {'index.html':['성경별 공부',latest_book['name'],'최근 공부'],'books/index.html':book_names,'proverbs/index.html':['잠언 첫 번째 읽기'],'books/john/index.html':['요한복음 첫 번째 읽기','20개 기록 · 3장 없음','요한복음 두 번째 읽기'],'books/first-corinthians/index.html':first_corinthians_markers,latest_book_rel:latest_index_markers,latest_rel:[f"{latest_book['name']} {latest['chapter']}장 묵상",latest_state,'인용 안내']}.items():
  p=SITE/rel
  if not p.exists():errors.append('missing page:'+rel);continue
  t=p.read_text()

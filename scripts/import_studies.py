@@ -12,6 +12,7 @@ BOOKS={
  "John":{"slug":"john","ko":"요한복음","en":"JOHN","chapters":21,"description":"말씀이 육신이 되어 오신 예수 그리스도를 만나는 기록"},
  "Acts":{"slug":"acts","ko":"사도행전","en":"ACTS","chapters":28,"description":"성령 안에서 복음이 예루살렘에서 땅끝으로 확장되는 여정"},
  "Romans":{"slug":"romans","ko":"로마서","en":"ROMANS","chapters":16,"description":"복음 안에 나타난 하나님의 의와 그 은혜에 합당한 삶"},
+ "1Corinthians":{"slug":"first-corinthians","ko":"고린도전서","en":"1 CORINTHIANS","chapters":16,"description":"십자가의 지혜로 분열을 넘어 거룩한 공동체를 세우는 말씀"},
 }
 SECTION_TERMS={1:"오늘의 본문",2:"핵심 구절",3:"구조 분석",4:"해석",5:"삶 적용",6:"묵상/기도",7:"한눈에 보는 요약"}
 AUTOMATION_LINES=("저장 파일명:","다음에는 성경 어느 장을 읽을까요?","까지 완료했습니다. 다음에는 성경 어느 장을 읽을까요?")
@@ -91,7 +92,7 @@ def main():
  source_files=[];items=[];source_manifest=[]
  for folder,cfg in BOOKS.items():
   for p in sorted((args.source/folder).glob("*.md")):
-   source_files.append(p);m=re.fullmatch(r"(\d{4}-\d{2}-\d{2})-([a-z]+)-(\d+)\.md",p.name)
+   source_files.append(p);m=re.fullmatch(r"(\d{4}-\d{2}-\d{2})-([a-z-]+)-(\d+)\.md",p.name)
    if not m:raise SystemExit(f"Unexpected filename: {p.name}")
    day,slug,ch=m.group(1),m.group(2),int(m.group(3));text=p.read_text();ok,found=has_sections(text)
    if slug!=cfg['slug']:raise SystemExit(f"Slug mismatch: {p.name}")
@@ -137,14 +138,16 @@ def main():
  book_data=[]
  for folder,cfg in BOOKS.items():
   rows=[x for x in kept if x['folder']==folder];series_ids=[]
-  if not rows:continue
+  url="/proverbs/" if cfg['slug']=="proverbs" else f"/books/{cfg['slug']}/"
+  if not rows:
+   book_data.append({'name':cfg['ko'],'slug':cfg['slug'],'en':cfg['en'],'description':cfg['description'],'expected_chapters':cfg['chapters'],'records':0,'series_count':0,'complete_series':0,'status':'준비 중','url':url,'latest_chapter':0})
+   continue
   for x in rows:
    if x['series_id'] not in series_ids:series_ids.append(x['series_id'])
   complete_count=sum(1 for sid in series_ids if next(x for x in rows if x['series_id']==sid)['series_complete'])
   latest_group=[x for x in rows if x['series_id']==series_ids[-1]];latest_ch=latest_group[-1]['chapter']
   if latest_group[-1]['series_complete']:status="완독" if len(series_ids)==1 else f"완독 {complete_count}회 · 총 {len(rows)}개 기록"
   else:status=f"진행 중 · {latest_ch} / {cfg['chapters']}장"
-  url="/proverbs/" if cfg['slug']=="proverbs" else f"/books/{cfg['slug']}/"
   book_data.append({'name':cfg['ko'],'slug':cfg['slug'],'en':cfg['en'],'description':cfg['description'],'expected_chapters':cfg['chapters'],'records':len(rows),'series_count':len(series_ids),'complete_series':complete_count,'status':status,'url':url,'latest_chapter':latest_ch})
  args.manifest.parent.mkdir(parents=True,exist_ok=True);args.manifest.write_text(json.dumps({'source_root':'private Bible archive','source_count':len(source_manifest),'published_count':len(public_manifest),'omitted':omitted,'public_transformations':['automation metadata removed','quotation lines over 500 characters replaced by chapter-and-verse reference'],'source_files':source_manifest,'published_files':public_manifest},ensure_ascii=False,indent=2)+"\n")
  (args.manifest.parent/'books.json').write_text(json.dumps(book_data,ensure_ascii=False,indent=2)+"\n")

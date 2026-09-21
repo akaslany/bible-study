@@ -23,15 +23,22 @@ for p in studies:
   if ('NKRV:' in line or 'ESV:' in line) and len(line)>500:errors.append(f"overlong quotation:{p.name}")
 acts_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Acts').glob('*-acts-*.md')]
 romans_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Romans').glob('*-romans-*.md')]
+first_corinthians_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'1Corinthians').glob('*-first-corinthians-*.md')]
 expected={'proverbs':31,'ecclesiastes':12,'job':42,'john':41,'acts':max(acts_chapters)}
 if romans_chapters:expected['romans']=max(romans_chapters)
+if first_corinthians_chapters:expected['first-corinthians']=max(first_corinthians_chapters)
 if counts!=expected:errors.append(f"counts={counts}")
 for item in manifest['source_files']:
  p=SOURCE/item['source_file']
  if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest()!=item['source_sha256']:errors.append(f"source hash:{p}")
-expected_book_count=5+(1 if romans_chapters else 0)
+expected_book_count=7
 if len(books)!=expected_book_count:errors.append(f'books data count={len(books)}/{expected_book_count}')
-for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','romans.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
+first_corinthians_book=next((x for x in books if x['slug']=='first-corinthians'),None)
+if not first_corinthians_book:errors.append('first-corinthians book data missing')
+elif first_corinthians_chapters:
+ if first_corinthians_book['records']!=max(first_corinthians_chapters) or first_corinthians_book['latest_chapter']!=max(first_corinthians_chapters):errors.append('first-corinthians populated state mismatch')
+elif first_corinthians_book['records']!=0 or first_corinthians_book['latest_chapter']!=0 or first_corinthians_book['status']!='준비 중':errors.append('first-corinthians zero-record state mismatch')
+for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','romans.md','first-corinthians.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
  if not (ROOT/required).exists():errors.append('missing:'+required)
 if errors:print('\\n'.join('FAIL: '+x for x in errors[:80]));sys.exit(1)
 print(f"SOURCE_AND_CONTENT_TESTS_PASS source={len(source_files)} published={len(published_files)} books={len(books)} duplicate_omitted=1")
