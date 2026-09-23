@@ -12,7 +12,7 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+series_missing: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 passage: "고린도전서 1장"
 summary: "바울은 분열된 고린도 교회를 향해, 그들의 정체성이 사람이나 당파가 아니라 십자가에 달리신 그리스도 안에 있음을 선포한다."
 book_url: "/books/first-corinthians/"
