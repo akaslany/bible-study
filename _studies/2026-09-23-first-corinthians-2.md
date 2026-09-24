@@ -12,7 +12,7 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+series_missing: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 passage: "고린도전서 2장"
 summary: "바울은 고린도에서 자신의 말재주나 인간적 지혜가 아니라 십자가에 못 박히신 그리스도를 전했다고 밝힌다."
 book_url: "/books/first-corinthians/"
