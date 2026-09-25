@@ -12,7 +12,7 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+series_missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 passage: "고린도전서 3장"
 summary: "시기와 파당은 자신을 지혜롭다고 여기는 교회의 영적 미성숙을 드러낸다."
 book_url: "/books/first-corinthians/"

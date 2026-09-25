@@ -12,15 +12,15 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+series_missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 passage: "고린도전서 4장"
 summary: "그리스도의 일꾼은 사람의 인기보다 주께 맡은 일에 충성하며 최종 평가를 주께 맡긴다(1–5절)."
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 3
 previous_url: "/studies/2026-09-24-first-corinthians-3/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 5
+next_url: "/studies/2026-09-26-first-corinthians-5/"
 ---
 ## 1. 오늘의 본문
 - 날짜: 2026-09-25 (금요일, Asia/Seoul)
