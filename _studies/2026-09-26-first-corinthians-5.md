@@ -12,15 +12,15 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+series_missing: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 passage: "고린도전서 5장"
 summary: "교회는 아버지의 아내를 취한 사람의 일을 듣고도 통한히 여기기보다 교만해져 있었다(1–2절)."
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 4
 previous_url: "/studies/2026-09-25-first-corinthians-4/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 6
+next_url: "/studies/2026-09-27-first-corinthians-6/"
 ---
 ## 1. 오늘의 본문
 - 날짜: 2026-09-26 (Asia/Seoul)
