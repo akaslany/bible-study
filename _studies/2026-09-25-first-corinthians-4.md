@@ -12,7 +12,7 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [10, 11, 12, 13, 14, 15, 16]
+series_missing: [11, 12, 13, 14, 15, 16]
 passage: "고린도전서 4장"
 summary: "그리스도의 일꾼은 사람의 인기보다 주께 맡은 일에 충성하며 최종 평가를 주께 맡긴다(1–5절)."
 book_url: "/books/first-corinthians/"

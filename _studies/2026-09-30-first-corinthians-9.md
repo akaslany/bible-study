@@ -12,15 +12,15 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [10, 11, 12, 13, 14, 15, 16]
+series_missing: [11, 12, 13, 14, 15, 16]
 passage: "고린도전서 9장"
 summary: "사도로서 마땅히 누릴 권리(생계 지원, 일하지 않을 자유)가 있음을 성경과 상식으로 증명하면서도,"
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 8
 previous_url: "/studies/2026-09-29-first-corinthians-8/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 10
+next_url: "/studies/2026-10-01-first-corinthians-10/"
 ---
 ## 1. 오늘의 본문
 
