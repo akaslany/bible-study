@@ -12,7 +12,7 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [11, 12, 13, 14, 15, 16]
+series_missing: [12, 13, 14, 15, 16]
 passage: "고린도전서 7장"
 summary: "고린도 교인들이 편지로 물어 온 결혼·독신·부부 관계의 문제에 대해, 바울은 금욕적 표어(“남자가 여자를 가까이 아니함이 좋으나”, 1절)를 부부의 상호 의무와 은사의 다양성으로 교정한다(1–9절)."
 book_url: "/books/first-corinthians/"

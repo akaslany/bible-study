@@ -12,15 +12,15 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [11, 12, 13, 14, 15, 16]
+series_missing: [12, 13, 14, 15, 16]
 passage: "고린도전서 10장"
 summary: "신실하신 하나님을 의지하여 우상숭배를 피하고, 그리스도께 속한 자유를 이웃의 유익과 하나님의 영광을 위해 사용하자."
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 9
 previous_url: "/studies/2026-09-30-first-corinthians-9/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 11
+next_url: "/studies/2026-10-02-first-corinthians-11/"
 ---
 ## 1. 오늘의 본문
 
