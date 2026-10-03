@@ -12,15 +12,15 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [13, 14, 15, 16]
+series_missing: [14, 15, 16]
 passage: "고린도전서 12장"
 summary: "성령께서 주신 서로 다른 은사를 예수님의 주되심 아래 함께 사용하며, 약한 지체의 아픔과 다른 지체의 기쁨을 나의 일로 받아들이자."
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 11
 previous_url: "/studies/2026-10-02-first-corinthians-11/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 13
+next_url: "/studies/2026-10-04-first-corinthians-13/"
 ---
 ## 1. 오늘의 본문
 
