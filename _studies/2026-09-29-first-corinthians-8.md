@@ -12,7 +12,7 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [14, 15, 16]
+series_missing: [15, 16]
 passage: "고린도전서 8장"
 summary: "우상의 제물을 먹어도 되는가라는 질문 앞에서, 바울은 \"옳고 그름\"이 아니라 \"지식은 교만하게 하고 사랑은 덕을 세운다\"는 기준으로 논의를 전환한다."
 book_url: "/books/first-corinthians/"

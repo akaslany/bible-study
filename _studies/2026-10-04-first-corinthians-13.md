@@ -12,15 +12,15 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [14, 15, 16]
+series_missing: [15, 16]
 passage: "고린도전서 13장"
 summary: "사랑이 없으면 탁월한 은사와 지식, 극단적인 헌신조차 공동체를 살리는 가치가 되지 못한다(1–3절)."
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 12
 previous_url: "/studies/2026-10-03-first-corinthians-12/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 14
+next_url: "/studies/2026-10-05-first-corinthians-14/"
 ---
 ## 1. 오늘의 본문
 
