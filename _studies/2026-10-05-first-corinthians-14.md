@@ -12,15 +12,15 @@ series_id: "first-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [15, 16]
+series_missing: [16]
 passage: "고린도전서 14장"
 summary: "사랑을 따라 은사를 구하되, 회중이 알아듣고 함께 응답하여 교회가 세워지게 하라."
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 13
 previous_url: "/studies/2026-10-04-first-corinthians-13/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 15
+next_url: "/studies/2026-10-06-first-corinthians-15/"
 ---
 ## 1. 오늘의 본문
 - 날짜: 2026-10-05 (Asia/Seoul)
