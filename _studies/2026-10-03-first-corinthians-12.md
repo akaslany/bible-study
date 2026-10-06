@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 12장"
 summary: "성령께서 주신 서로 다른 은사를 예수님의 주되심 아래 함께 사용하며, 약한 지체의 아픔과 다른 지체의 기쁨을 나의 일로 받아들이자."
 book_url: "/books/first-corinthians/"

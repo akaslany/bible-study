@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 9장"
 summary: "사도로서 마땅히 누릴 권리(생계 지원, 일하지 않을 자유)가 있음을 성경과 상식으로 증명하면서도,"
 book_url: "/books/first-corinthians/"

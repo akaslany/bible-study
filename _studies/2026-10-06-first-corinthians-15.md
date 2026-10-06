@@ -10,17 +10,17 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 15장"
 summary: "그리스도께서 우리 죄를 위해 죽으시고 실제로 살아나셨다는 복음은 교회가 받은 신앙의 토대다."
 book_url: "/books/first-corinthians/"
 public: true
 previous_chapter: 14
 previous_url: "/studies/2026-10-05-first-corinthians-14/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 16
+next_url: "/studies/2026-10-07-first-corinthians-16/"
 ---
 ## 1. 오늘의 본문
 

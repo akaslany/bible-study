@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 14장"
 summary: "사랑을 따라 은사를 구하되, 회중이 알아듣고 함께 응답하여 교회가 세워지게 하라."
 book_url: "/books/first-corinthians/"

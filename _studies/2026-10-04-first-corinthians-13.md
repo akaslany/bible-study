@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 13장"
 summary: "사랑이 없으면 탁월한 은사와 지식, 극단적인 헌신조차 공동체를 살리는 가치가 되지 못한다(1–3절)."
 book_url: "/books/first-corinthians/"

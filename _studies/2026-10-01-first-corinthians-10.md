@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 10장"
 summary: "신실하신 하나님을 의지하여 우상숭배를 피하고, 그리스도께 속한 자유를 이웃의 유익과 하나님의 영광을 위해 사용하자."
 book_url: "/books/first-corinthians/"

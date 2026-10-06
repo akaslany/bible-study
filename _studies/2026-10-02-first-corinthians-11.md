@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 11장"
 summary: "주님의 죽으심을 선포하는 믿음은 예배와 식탁에서 서로의 존엄을 지키고 기다리는 사랑으로 드러나야 한다."
 book_url: "/books/first-corinthians/"

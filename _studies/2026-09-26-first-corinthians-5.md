@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 5장"
 summary: "교회는 아버지의 아내를 취한 사람의 일을 듣고도 통한히 여기기보다 교만해져 있었다(1–2절)."
 book_url: "/books/first-corinthians/"

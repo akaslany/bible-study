@@ -10,9 +10,9 @@ expected_chapters: 16
 series: "고린도전서 첫 번째 읽기"
 series_id: "first-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [16]
+series_missing: []
 passage: "고린도전서 1장"
 summary: "바울은 분열된 고린도 교회를 향해, 그들의 정체성이 사람이나 당파가 아니라 십자가에 달리신 그리스도 안에 있음을 선포한다."
 book_url: "/books/first-corinthians/"
