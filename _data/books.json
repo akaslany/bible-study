@@ -89,5 +89,18 @@
     "status": "완독",
     "url": "/books/first-corinthians/",
     "latest_chapter": 16
+  },
+  {
+    "name": "고린도후서",
+    "slug": "second-corinthians",
+    "en": "2 CORINTHIANS",
+    "description": "위로의 하나님과 화해의 직분, 약함 속에 나타나는 그리스도의 능력",
+    "expected_chapters": 13,
+    "records": 1,
+    "series_count": 1,
+    "complete_series": 0,
+    "status": "진행 중 · 1 / 13장",
+    "url": "/books/second-corinthians/",
+    "latest_chapter": 1
   }
 ]

@@ -13,6 +13,7 @@ BOOKS={
  "Acts":{"slug":"acts","ko":"사도행전","en":"ACTS","chapters":28,"description":"성령 안에서 복음이 예루살렘에서 땅끝으로 확장되는 여정"},
  "Romans":{"slug":"romans","ko":"로마서","en":"ROMANS","chapters":16,"description":"복음 안에 나타난 하나님의 의와 그 은혜에 합당한 삶"},
  "1Corinthians":{"slug":"first-corinthians","ko":"고린도전서","en":"1 CORINTHIANS","chapters":16,"description":"십자가의 지혜로 분열을 넘어 거룩한 공동체를 세우는 말씀"},
+ "2Corinthians":{"slug":"second-corinthians","ko":"고린도후서","en":"2 CORINTHIANS","chapters":13,"description":"위로의 하나님과 화해의 직분, 약함 속에 나타나는 그리스도의 능력"},
 }
 SECTION_TERMS={1:"오늘의 본문",2:"핵심 구절",3:"구조 분석",4:"해석",5:"삶 적용",6:"묵상/기도",7:"한눈에 보는 요약"}
 AUTOMATION_LINES=("저장 파일명:","다음에는 성경 어느 장을 읽을까요?","까지 완료했습니다. 다음에는 성경 어느 장을 읽을까요?")
