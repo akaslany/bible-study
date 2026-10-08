@@ -12,13 +12,13 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+series_missing: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 passage: "고린도후서 1장"
 summary: "부활의 하나님을 의지하여 받은 위로를 나누고, 정직한 말과 동역자적 태도로 공동체의 믿음과 기쁨을 돕자."
 book_url: "/books/second-corinthians/"
 public: true
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 2
+next_url: "/studies/2026-10-09-second-corinthians-2/"
 ---
 ## 1. 오늘의 본문
 - 날짜: 2026-10-08 (Asia/Seoul)
