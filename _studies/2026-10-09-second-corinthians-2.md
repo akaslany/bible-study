@@ -12,15 +12,15 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+series_missing: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 passage: "고린도후서 2장"
 summary: "하나님 앞에서 진실하게 그리스도를 증언하는 공동체는 잘못을 책임 있게 다루되, 사람을 지나친 슬픔에 버려두지 않고 용서와 위로로 회복을 돕는다."
 book_url: "/books/second-corinthians/"
 public: true
 previous_chapter: 1
 previous_url: "/studies/2026-10-08-second-corinthians-1/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 3
+next_url: "/studies/2026-10-10-second-corinthians-3/"
 ---
 ## 1. 오늘의 본문
 - 날짜: 2026-10-09 (Asia/Seoul)
