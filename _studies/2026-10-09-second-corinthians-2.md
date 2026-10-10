@@ -12,7 +12,7 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+series_missing: [5, 6, 7, 8, 9, 10, 11, 12, 13]
 passage: "고린도후서 2장"
 summary: "하나님 앞에서 진실하게 그리스도를 증언하는 공동체는 잘못을 책임 있게 다루되, 사람을 지나친 슬픔에 버려두지 않고 용서와 위로로 회복을 돕는다."
 book_url: "/books/second-corinthians/"

@@ -12,15 +12,15 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+series_missing: [5, 6, 7, 8, 9, 10, 11, 12, 13]
 passage: "고린도후서 3장"
 summary: "하나님이 주시는 충분함을 의지하고 그리스도를 바라보며, 성령의 자유를 공동체를 살리는 정직한 말과 섬김으로 살아내자."
 book_url: "/books/second-corinthians/"
 public: true
 previous_chapter: 2
 previous_url: "/studies/2026-10-09-second-corinthians-2/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 4
+next_url: "/studies/2026-10-11-second-corinthians-4/"
 ---
 ## 1. 오늘의 본문
 
