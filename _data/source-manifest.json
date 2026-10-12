@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 192,
-  "published_count": 191,
+  "source_count": 193,
+  "published_count": 192,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -780,6 +780,10 @@
     {
       "source_file": "2Corinthians/2026-10-12-second-corinthians-5.md",
       "source_sha256": "17e74b49f644ebeba21193181984ccee8cc6b44f6353c4ef77e93cfd506f0947"
+    },
+    {
+      "source_file": "2Corinthians/2026-10-13-second-corinthians-6.md",
+      "source_sha256": "72e66a646d18a02f1e9961ccaf9575a7a14aa089a656c8a117ddeacb36ff9938"
     }
   ],
   "published_files": [
@@ -2309,6 +2313,14 @@
       "book_slug": "second-corinthians",
       "chapter": 5,
       "date": "2026-10-12",
+      "series_id": "second-corinthians-2026-s1"
+    },
+    {
+      "source_file": "2Corinthians/2026-10-13-second-corinthians-6.md",
+      "public_file": "_studies/2026-10-13-second-corinthians-6.md",
+      "book_slug": "second-corinthians",
+      "chapter": 6,
+      "date": "2026-10-13",
       "series_id": "second-corinthians-2026-s1"
     }
   ]

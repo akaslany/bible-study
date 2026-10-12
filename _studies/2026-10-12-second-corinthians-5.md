@@ -12,15 +12,15 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [6, 7, 8, 9, 10, 11, 12, 13]
+series_missing: [7, 8, 9, 10, 11, 12, 13]
 passage: "고린도후서 5장"
 summary: "하나님이 그리스도 안에서 이루신 화해와 새 창조를 믿고, 탄식하는 현실 속에서도 주를 기쁘시게 하며 사람을 새롭게 바라보자."
 book_url: "/books/second-corinthians/"
 public: true
 previous_chapter: 4
 previous_url: "/studies/2026-10-11-second-corinthians-4/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 6
+next_url: "/studies/2026-10-13-second-corinthians-6/"
 ---
 ## 1. 오늘의 본문
 
