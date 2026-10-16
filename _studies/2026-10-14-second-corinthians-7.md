@@ -12,7 +12,7 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [10, 11, 12, 13]
+series_missing: [11, 12, 13]
 passage: "고린도후서 7장"
 summary: "하나님이 주시는 위로를 받아 잘못을 책임 있게 돌이키고, 진실과 사랑이 함께하는 공동체의 회복을 오늘의 작은 행동으로 섬기자."
 book_url: "/books/second-corinthians/"

@@ -12,15 +12,15 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [10, 11, 12, 13]
+series_missing: [11, 12, 13]
 passage: "고린도후서 9장"
 summary: "바울은 고린도 교회가 약속한 구제 헌금을 미리 준비하여 억지가 아닌 자원하는 선물로 완성하도록 권한다."
 book_url: "/books/second-corinthians/"
 public: true
 previous_chapter: 8
 previous_url: "/studies/2026-10-15-second-corinthians-8/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 10
+next_url: "/studies/2026-10-17-second-corinthians-10/"
 ---
 ## 1. 오늘의 본문
 
