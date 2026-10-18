@@ -12,7 +12,7 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [12, 13]
+series_missing: [13]
 passage: "고린도후서 10장"
 summary: "그리스도의 온유로 진리를 지키고, 맡겨진 자리에서 공동체를 세우며, 나의 자랑과 평가를 주님께 맡기자."
 book_url: "/books/second-corinthians/"

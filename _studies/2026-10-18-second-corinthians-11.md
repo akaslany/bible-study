@@ -12,15 +12,15 @@ series_id: "second-corinthians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [12, 13]
+series_missing: [13]
 passage: "고린도후서 11장"
 summary: "바울은 교회를 그리스도께 정결하게 드리려는 열심으로, 다른 예수·다른 영·다른 복음을 용납하는 위험을 경고한다."
 book_url: "/books/second-corinthians/"
 public: true
 previous_chapter: 10
 previous_url: "/studies/2026-10-17-second-corinthians-10/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 12
+next_url: "/studies/2026-10-19-second-corinthians-12/"
 ---
 ## 1. 오늘의 본문
 - 날짜: 2026-10-18 (Asia/Seoul)
