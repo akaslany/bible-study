@@ -10,9 +10,9 @@ expected_chapters: 13
 series: "고린도후서 첫 번째 읽기"
 series_id: "second-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [13]
+series_missing: []
 passage: "고린도후서 6장"
 summary: "하나님이 그리스도 안에서 베푸신 화해의 은혜에 지금 응답하며, 그 은혜를 헛되이 받지 말라."
 book_url: "/books/second-corinthians/"

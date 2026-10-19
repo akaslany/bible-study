@@ -10,9 +10,9 @@ expected_chapters: 13
 series: "고린도후서 첫 번째 읽기"
 series_id: "second-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [13]
+series_missing: []
 passage: "고린도후서 3장"
 summary: "하나님이 주시는 충분함을 의지하고 그리스도를 바라보며, 성령의 자유를 공동체를 살리는 정직한 말과 섬김으로 살아내자."
 book_url: "/books/second-corinthians/"

@@ -10,9 +10,9 @@ expected_chapters: 13
 series: "고린도후서 첫 번째 읽기"
 series_id: "second-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [13]
+series_missing: []
 passage: "고린도후서 9장"
 summary: "바울은 고린도 교회가 약속한 구제 헌금을 미리 준비하여 억지가 아닌 자원하는 선물로 완성하도록 권한다."
 book_url: "/books/second-corinthians/"

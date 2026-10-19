@@ -10,9 +10,9 @@ expected_chapters: 13
 series: "고린도후서 첫 번째 읽기"
 series_id: "second-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [13]
+series_missing: []
 passage: "고린도후서 4장"
 summary: "하나님의 긍휼로 받은 새 언약의 직분은 자신을 선전하지 않고 예수 그리스도를 주로 전하며 진리를 드러낸다."
 book_url: "/books/second-corinthians/"

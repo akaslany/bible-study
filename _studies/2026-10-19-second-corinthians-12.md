@@ -10,17 +10,17 @@ expected_chapters: 13
 series: "고린도후서 첫 번째 읽기"
 series_id: "second-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [13]
+series_missing: []
 passage: "고린도후서 12장"
 summary: "나의 강함을 증명하려는 자리에서 내려와, 충분한 그리스도의 은혜를 의지하며 정직한 사랑과 회개로 공동체를 세우자."
 book_url: "/books/second-corinthians/"
 public: true
 previous_chapter: 11
 previous_url: "/studies/2026-10-18-second-corinthians-11/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 13
+next_url: "/studies/2026-10-20-second-corinthians-13/"
 ---
 📖 고린도후서 일일 묵상 리포트
 

@@ -10,9 +10,9 @@ expected_chapters: 13
 series: "고린도후서 첫 번째 읽기"
 series_id: "second-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [13]
+series_missing: []
 passage: "고린도후서 11장"
 summary: "바울은 교회를 그리스도께 정결하게 드리려는 열심으로, 다른 예수·다른 영·다른 복음을 용납하는 위험을 경고한다."
 book_url: "/books/second-corinthians/"

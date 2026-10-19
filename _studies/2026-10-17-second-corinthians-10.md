@@ -10,9 +10,9 @@ expected_chapters: 13
 series: "고린도후서 첫 번째 읽기"
 series_id: "second-corinthians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [13]
+series_missing: []
 passage: "고린도후서 10장"
 summary: "그리스도의 온유로 진리를 지키고, 맡겨진 자리에서 공동체를 세우며, 나의 자랑과 평가를 주님께 맡기자."
 book_url: "/books/second-corinthians/"
