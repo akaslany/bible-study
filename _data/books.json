@@ -102,5 +102,18 @@
     "status": "완독",
     "url": "/books/second-corinthians/",
     "latest_chapter": 13
+  },
+  {
+    "name": "갈라디아서",
+    "slug": "galatians",
+    "en": "GALATIANS",
+    "description": "이신칭의와 그리스도 안의 자유, 성령의 열매로 드러나는 복음",
+    "expected_chapters": 6,
+    "records": 1,
+    "series_count": 1,
+    "complete_series": 0,
+    "status": "진행 중 · 1 / 6장",
+    "url": "/books/galatians/",
+    "latest_chapter": 1
   }
 ]
