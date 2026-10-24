@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 204,
-  "published_count": 203,
+  "source_count": 205,
+  "published_count": 204,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -828,6 +828,10 @@
     {
       "source_file": "Galatians/2026-10-24-galatians-4.md",
       "source_sha256": "b8ec654aaaeb5c4eea75fdd452f559c1214f2d5beb720e9a30a166a75f9182f8"
+    },
+    {
+      "source_file": "Galatians/2026-10-25-galatians-5.md",
+      "source_sha256": "de446f2270cb5392a4d80052bd67f79469f8bfb86f5f9749bd0fb171c89d3d51"
     }
   ],
   "published_files": [
@@ -2453,6 +2457,14 @@
       "book_slug": "galatians",
       "chapter": 4,
       "date": "2026-10-24",
+      "series_id": "galatians-2026-s1"
+    },
+    {
+      "source_file": "Galatians/2026-10-25-galatians-5.md",
+      "public_file": "_studies/2026-10-25-galatians-5.md",
+      "book_slug": "galatians",
+      "chapter": 5,
+      "date": "2026-10-25",
       "series_id": "galatians-2026-s1"
     }
   ]
