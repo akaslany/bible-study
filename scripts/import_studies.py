@@ -15,6 +15,7 @@ BOOKS={
  "1Corinthians":{"slug":"first-corinthians","ko":"고린도전서","en":"1 CORINTHIANS","chapters":16,"description":"십자가의 지혜로 분열을 넘어 거룩한 공동체를 세우는 말씀"},
  "2Corinthians":{"slug":"second-corinthians","ko":"고린도후서","en":"2 CORINTHIANS","chapters":13,"description":"위로의 하나님과 화해의 직분, 약함 속에 나타나는 그리스도의 능력"},
  "Galatians":{"slug":"galatians","ko":"갈라디아서","en":"GALATIANS","chapters":6,"description":"이신칭의와 그리스도 안의 자유, 성령의 열매로 드러나는 복음"},
+ "Ephesians":{"slug":"ephesians","ko":"에베소서","en":"EPHESIANS","chapters":6,"description":"그리스도 안에서의 신분과 은혜로 인한 구원, 한 몸 된 교회와 새 사람의 삶"},
 }
 SECTION_TERMS={1:"오늘의 본문",2:"핵심 구절",3:"구조 분석",4:"해석",5:"삶 적용",6:"묵상/기도",7:"한눈에 보는 요약"}
 AUTOMATION_LINES=("저장 파일명:","다음에는 성경 어느 장을 읽을까요?","까지 완료했습니다. 다음에는 성경 어느 장을 읽을까요?")

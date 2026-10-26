@@ -26,16 +26,18 @@ romans_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Romans').glob('*
 first_corinthians_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'1Corinthians').glob('*-first-corinthians-*.md')]
 second_corinthians_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'2Corinthians').glob('*-second-corinthians-*.md')]
 galatians_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Galatians').glob('*-galatians-*.md')]
+ephesians_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Ephesians').glob('*-ephesians-*.md')]
 expected={'proverbs':31,'ecclesiastes':12,'job':42,'john':41,'acts':max(acts_chapters)}
 if romans_chapters:expected['romans']=max(romans_chapters)
 if first_corinthians_chapters:expected['first-corinthians']=max(first_corinthians_chapters)
 if second_corinthians_chapters:expected['second-corinthians']=max(second_corinthians_chapters)
 if galatians_chapters:expected['galatians']=max(galatians_chapters)
+if ephesians_chapters:expected['ephesians']=max(ephesians_chapters)
 if counts!=expected:errors.append(f"counts={counts}")
 for item in manifest['source_files']:
  p=SOURCE/item['source_file']
  if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest()!=item['source_sha256']:errors.append(f"source hash:{p}")
-expected_book_count=9
+expected_book_count=10
 if len(books)!=expected_book_count:errors.append(f'books data count={len(books)}/{expected_book_count}')
 first_corinthians_book=next((x for x in books if x['slug']=='first-corinthians'),None)
 if not first_corinthians_book:errors.append('first-corinthians book data missing')
@@ -52,7 +54,12 @@ if not galatians_book:errors.append('galatians book data missing')
 elif galatians_chapters:
  if galatians_book['records']!=max(galatians_chapters) or galatians_book['latest_chapter']!=max(galatians_chapters):errors.append('galatians populated state mismatch')
 elif galatians_book['records']!=0 or galatians_book['latest_chapter']!=0 or galatians_book['status']!='준비 중':errors.append('galatians zero-record state mismatch')
-for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','romans.md','first-corinthians.md','second-corinthians.md','galatians.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
+ephesians_book=next((x for x in books if x['slug']=='ephesians'),None)
+if not ephesians_book:errors.append('ephesians book data missing')
+elif ephesians_chapters:
+ if ephesians_book['records']!=max(ephesians_chapters) or ephesians_book['latest_chapter']!=max(ephesians_chapters):errors.append('ephesians populated state mismatch')
+elif ephesians_book['records']!=0 or ephesians_book['latest_chapter']!=0 or ephesians_book['status']!='준비 중':errors.append('ephesians zero-record state mismatch')
+for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','romans.md','first-corinthians.md','second-corinthians.md','galatians.md','ephesians.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
  if not (ROOT/required).exists():errors.append('missing:'+required)
 if errors:print('\\n'.join('FAIL: '+x for x in errors[:80]));sys.exit(1)
 print(f"SOURCE_AND_CONTENT_TESTS_PASS source={len(source_files)} published={len(published_files)} books={len(books)} duplicate_omitted=1")
