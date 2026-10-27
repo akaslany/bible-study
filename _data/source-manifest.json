@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 207,
-  "published_count": 206,
+  "source_count": 208,
+  "published_count": 207,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -840,6 +840,10 @@
     {
       "source_file": "Ephesians/2026-10-27-ephesians-1.md",
       "source_sha256": "f990a0f8a07477d2416c169e478b8a1b4ed9753245d47a618b456c9340f0c470"
+    },
+    {
+      "source_file": "Ephesians/2026-10-28-ephesians-2.md",
+      "source_sha256": "e8a99a120d48c24a1eb97a230ae81854207032736dd5b5fc82d5c5e7a753b68e"
     }
   ],
   "published_files": [
@@ -2489,6 +2493,14 @@
       "book_slug": "ephesians",
       "chapter": 1,
       "date": "2026-10-27",
+      "series_id": "ephesians-2026-s1"
+    },
+    {
+      "source_file": "Ephesians/2026-10-28-ephesians-2.md",
+      "public_file": "_studies/2026-10-28-ephesians-2.md",
+      "book_slug": "ephesians",
+      "chapter": 2,
+      "date": "2026-10-28",
       "series_id": "ephesians-2026-s1"
     }
   ]
