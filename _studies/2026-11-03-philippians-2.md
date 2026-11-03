@@ -12,15 +12,15 @@ series_id: "philippians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [3, 4]
+series_missing: [4]
 passage: "빌립보서 2장"
 summary: "그리스도 안에서 받은 위로와 성령의 교제는 경쟁과 허영이 아니라 서로를 돌보는 한마음으로 나타나야 한다."
 book_url: "/books/philippians/"
 public: true
 previous_chapter: 1
 previous_url: "/studies/2026-11-02-philippians-1/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 3
+next_url: "/studies/2026-11-04-philippians-3/"
 ---
 빌립보서 일일 묵상 리포트 — 2026-11-03
 
