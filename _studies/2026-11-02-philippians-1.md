@@ -10,9 +10,9 @@ expected_chapters: 4
 series: "빌립보서 첫 번째 읽기"
 series_id: "philippians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [4]
+series_missing: []
 passage: "빌립보서 1장"
 summary: "하나님이 시작하신 은혜를 신뢰하며, 오늘의 제약 속에서도 그리스도를 존귀하게 하고 이웃의 믿음과 기쁨을 위해 함께 살아가자."
 book_url: "/books/philippians/"

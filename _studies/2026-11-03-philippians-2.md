@@ -10,9 +10,9 @@ expected_chapters: 4
 series: "빌립보서 첫 번째 읽기"
 series_id: "philippians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [4]
+series_missing: []
 passage: "빌립보서 2장"
 summary: "그리스도 안에서 받은 위로와 성령의 교제는 경쟁과 허영이 아니라 서로를 돌보는 한마음으로 나타나야 한다."
 book_url: "/books/philippians/"

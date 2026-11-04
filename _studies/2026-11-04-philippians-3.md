@@ -10,17 +10,17 @@ expected_chapters: 4
 series: "빌립보서 첫 번째 읽기"
 series_id: "philippians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [4]
+series_missing: []
 passage: "빌립보서 3장"
 summary: "바울은 혈통과 종교적 성취를 하나님 앞에 설 근거로 삼는 태도를 버리고, 그리스도를 아는 지식과 믿음으로 하나님께로부터 오는 의를 가장 귀하게 여긴다."
 book_url: "/books/philippians/"
 public: true
 previous_chapter: 2
 previous_url: "/studies/2026-11-03-philippians-2/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 4
+next_url: "/studies/2026-11-05-philippians-4/"
 ---
 빌립보서 일일 묵상 리포트 — 2026-11-04
 
