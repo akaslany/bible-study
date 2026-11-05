@@ -39,7 +39,7 @@ if counts!=expected:errors.append(f"counts={counts}")
 for item in manifest['source_files']:
  p=SOURCE/item['source_file']
  if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest()!=item['source_sha256']:errors.append(f"source hash:{p}")
-expected_book_count=11
+expected_book_count=12
 if len(books)!=expected_book_count:errors.append(f'books data count={len(books)}/{expected_book_count}')
 first_corinthians_book=next((x for x in books if x['slug']=='first-corinthians'),None)
 if not first_corinthians_book:errors.append('first-corinthians book data missing')
@@ -67,7 +67,13 @@ if not philippians_book:errors.append('philippians book data missing')
 elif philippians_chapters:
  if philippians_book['records']!=max(philippians_chapters) or philippians_book['latest_chapter']!=max(philippians_chapters):errors.append('philippians populated state mismatch')
 elif philippians_book['records']!=0 or philippians_book['latest_chapter']!=0 or philippians_book['status']!='준비 중':errors.append('philippians zero-record state mismatch')
-for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','romans.md','first-corinthians.md','second-corinthians.md','galatians.md','ephesians.md','philippians.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
+colossians_chapters=[int(p.stem.rsplit('-',1)[1]) for p in (SOURCE/'Colossians').glob('*-colossians-*.md')]
+colossians_book=next((x for x in books if x['slug']=='colossians'),None)
+if not colossians_book:errors.append('colossians book data missing')
+elif colossians_chapters:
+ if colossians_book['records']!=max(colossians_chapters) or colossians_book['latest_chapter']!=max(colossians_chapters):errors.append('colossians populated state mismatch')
+elif colossians_book['records']!=0 or colossians_book['latest_chapter']!=0 or colossians_book['status']!='준비 중':errors.append('colossians zero-record state mismatch')
+for required in ['books.md','proverbs.md','ecclesiastes.md','job.md','john.md','acts.md','romans.md','first-corinthians.md','second-corinthians.md','galatians.md','ephesians.md','philippians.md','colossians.md','_layouts/book.html','_layouts/study.html','_layouts/home-bible.html']:
  if not (ROOT/required).exists():errors.append('missing:'+required)
 if errors:print('\\n'.join('FAIL: '+x for x in errors[:80]));sys.exit(1)
 print(f"SOURCE_AND_CONTENT_TESTS_PASS source={len(source_files)} published={len(published_files)} books={len(books)} duplicate_omitted=1")

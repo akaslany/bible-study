@@ -141,5 +141,18 @@
     "status": "완독",
     "url": "/books/philippians/",
     "latest_chapter": 4
+  },
+  {
+    "name": "골로새서",
+    "slug": "colossians",
+    "en": "COLOSSIANS",
+    "description": "만물의 주이신 그리스도의 충만과 그 안에서 새로워지는 삶",
+    "expected_chapters": 4,
+    "records": 0,
+    "series_count": 0,
+    "complete_series": 0,
+    "status": "준비 중",
+    "url": "/books/colossians/",
+    "latest_chapter": 0
   }
 ]
