@@ -34,4 +34,5 @@ author: "Ki-jung Kim"
 exclude:
   - scripts
   - tests
+  - scratch
   - README.md
