@@ -12,7 +12,7 @@ series_id: "colossians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [3, 4]
+series_missing: [4]
 passage: "골로새서 1장"
 summary: "복음은 소망에 뿌리내린 믿음과 사랑을 낳으며, 하나님을 아는 지식은 감사와 선행으로 열매 맺는다."
 book_url: "/books/colossians/"

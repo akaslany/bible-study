@@ -12,15 +12,15 @@ series_id: "colossians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [3, 4]
+series_missing: [4]
 passage: "골로새서 2장"
 summary: "바울은 성도들이 사랑으로 연합하여 하나님의 비밀인 그리스도를 알고, 처음 받은 주님 안에서 계속 살아가기를 힘써 구한다."
 book_url: "/books/colossians/"
 public: true
 previous_chapter: 1
 previous_url: "/studies/2026-11-07-colossians-1/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 3
+next_url: "/studies/2026-11-09-colossians-3/"
 ---
 📖 골로새서 일일 묵상 리포트
 
