@@ -10,9 +10,9 @@ expected_chapters: 4
 series: "골로새서 첫 번째 읽기"
 series_id: "colossians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [4]
+series_missing: []
 passage: "골로새서 2장"
 summary: "바울은 성도들이 사랑으로 연합하여 하나님의 비밀인 그리스도를 알고, 처음 받은 주님 안에서 계속 살아가기를 힘써 구한다."
 book_url: "/books/colossians/"

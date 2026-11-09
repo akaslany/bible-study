@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 219,
-  "published_count": 218,
+  "source_count": 220,
+  "published_count": 219,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -888,6 +888,10 @@
     {
       "source_file": "Colossians/2026-11-09-colossians-3.md",
       "source_sha256": "e93e3a95cb897e93b33dd939c0b82a0c0db138fdb4bbc6330b0028e8c6fda102"
+    },
+    {
+      "source_file": "Colossians/2026-11-10-colossians-4.md",
+      "source_sha256": "486f484b0cfb67d05670154ff10c55963fbb9495d9b68107fc0e88e445073fcc"
     }
   ],
   "published_files": [
@@ -2633,6 +2637,14 @@
       "book_slug": "colossians",
       "chapter": 3,
       "date": "2026-11-09",
+      "series_id": "colossians-2026-s1"
+    },
+    {
+      "source_file": "Colossians/2026-11-10-colossians-4.md",
+      "public_file": "_studies/2026-11-10-colossians-4.md",
+      "book_slug": "colossians",
+      "chapter": 4,
+      "date": "2026-11-10",
       "series_id": "colossians-2026-s1"
     }
   ]

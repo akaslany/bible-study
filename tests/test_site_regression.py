@@ -15,6 +15,8 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 SITE = run_path(str(ROOT / 'tests/test_site.py'))
 REGISTRY = run_path(str(ROOT / 'scripts/import_studies.py'))['BOOKS']
+# tests/test_site.py's own FIXED_COUNTS (identity differs under run_path), read through its checkpoint script.
+FIXED_COUNTS = run_path(str(ROOT / 'tests/test_site.py'))['FIXED_COUNTS']
 
 
 class SiteRegressionTests(unittest.TestCase):
@@ -32,7 +34,11 @@ class SiteRegressionTests(unittest.TestCase):
                     (date(2026, 6, 1), list(range(1, 22))),
                 ]
             else:
-                count = SITE['FIXED_COUNTS'].get(slug, 1 if slug == 'colossians' else 0)
+                count = FIXED_COUNTS.get(slug, 0)
+                if slug == 'colossians' and count == 0:
+                    # Colossians finished its 4 chapters and the next book is registered,
+                    # so keep the successor-style fixture this class's transition tests build on.
+                    count = 1
                 series = [(date(2026, 1, 1), list(range(1, count + 1)))]
             for start, chapters in series:
                 for offset, chapter in enumerate(chapters):
@@ -149,7 +155,7 @@ class SiteRegressionTests(unittest.TestCase):
                 with self.subTest(slug=book['slug'], field=field):
                     original = book[field]
                     book[field] = value
-                    errors = SITE['check_books'](empty_source, books, SITE['FIXED_COUNTS'])
+                    errors = SITE['check_books'](empty_source, books, FIXED_COUNTS)
                     self.assertEqual(errors, [f"{book['slug']} zero-record state mismatch"])
                     book[field] = original
 
@@ -165,9 +171,10 @@ class SiteRegressionTests(unittest.TestCase):
         self.assertIn('unknown book data:unregistered', errors)
 
     def test_future_registered_book_uses_same_checks_and_count(self):
-        cfg = dict(REGISTRY['Colossians'], slug='future-book')
+        # A registered book that reads like the successor: newly added, no records yet.
+        cfg = dict(REGISTRY['1Thessalonians'], slug='future-book')
         self.write_source('FutureBook', cfg, date(2026, 1, 1), 1)
-        books = self.books + [dict(self.books[-1], slug='future-book')]
+        books = self.books + [dict(self.books[-1], slug='future-book', records=1, latest_chapter=1)]
         counts = dict(self.counts, **{'future-book': 1})
         with patch.dict(SITE['BOOK_SOURCE_DIRS'], {'future-book': 'FutureBook'}):
             self.assertEqual(SITE['check_books'](self.source, books, counts), [])
@@ -177,7 +184,7 @@ class SiteRegressionTests(unittest.TestCase):
             self.assertTrue(errors[0].startswith('counts='), errors)
 
     def test_fixed_book_source_deletion_still_fails(self):
-        for slug, count in SITE['FIXED_COUNTS'].items():
+        for slug, count in FIXED_COUNTS.items():
             with self.subTest(slug=slug):
                 folder = SITE['BOOK_SOURCE_DIRS'][slug]
                 # Remove every copy of the last chapter, including both John series.

@@ -10,17 +10,17 @@ expected_chapters: 4
 series: "골로새서 첫 번째 읽기"
 series_id: "colossians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [4]
+series_missing: []
 passage: "골로새서 3장"
 summary: "그리스도와 함께 살아난 성도는 감추어진 생명과 장차 나타날 영광을 바라보며, 위의 것을 삶의 방향으로 삼는다."
 book_url: "/books/colossians/"
 public: true
 previous_chapter: 2
 previous_url: "/studies/2026-11-08-colossians-2/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 4
+next_url: "/studies/2026-11-10-colossians-4/"
 ---
 📖 골로새서 일일 묵상 리포트
 

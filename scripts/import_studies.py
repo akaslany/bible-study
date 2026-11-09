@@ -18,6 +18,7 @@ BOOKS={
  "Ephesians":{"slug":"ephesians","ko":"에베소서","en":"EPHESIANS","chapters":6,"description":"그리스도 안에서의 신분과 은혜로 인한 구원, 한 몸 된 교회와 새 사람의 삶"},
  "Philippians":{"slug":"philippians","ko":"빌립보서","en":"PHILIPPIANS","chapters":4,"description":"그리스도 안에서 누리는 기쁨과 그리스도의 겸손, 어떤 형편에도 넉넉한 자족"},
  "Colossians":{"slug":"colossians","ko":"골로새서","en":"COLOSSIANS","chapters":4,"description":"만물의 주이신 그리스도의 충만과 그 안에서 새로워지는 삶"},
+ "1Thessalonians":{"slug":"first-thessalonians","ko":"데살로니가전서","en":"1 THESSALONIANS","chapters":5,"description":"재림의 소망과 함께 깨어 있는 성도의 사랑과 인내"},
 }
 SECTION_TERMS={1:"오늘의 본문",2:"핵심 구절",3:"구조 분석",4:"해석",5:"삶 적용",6:"묵상/기도",7:"한눈에 보는 요약"}
 AUTOMATION_LINES=("저장 파일명:","다음에는 성경 어느 장을 읽을까요?","까지 완료했습니다. 다음에는 성경 어느 장을 읽을까요?")

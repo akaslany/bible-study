@@ -148,11 +148,24 @@
     "en": "COLOSSIANS",
     "description": "만물의 주이신 그리스도의 충만과 그 안에서 새로워지는 삶",
     "expected_chapters": 4,
-    "records": 3,
+    "records": 4,
     "series_count": 1,
-    "complete_series": 0,
-    "status": "진행 중 · 3 / 4장",
+    "complete_series": 1,
+    "status": "완독",
     "url": "/books/colossians/",
-    "latest_chapter": 3
+    "latest_chapter": 4
+  },
+  {
+    "name": "데살로니가전서",
+    "slug": "first-thessalonians",
+    "en": "1 THESSALONIANS",
+    "description": "재림의 소망과 함께 깨어 있는 성도의 사랑과 인내",
+    "expected_chapters": 5,
+    "records": 0,
+    "series_count": 0,
+    "complete_series": 0,
+    "status": "준비 중",
+    "url": "/books/first-thessalonians/",
+    "latest_chapter": 0
   }
 ]
