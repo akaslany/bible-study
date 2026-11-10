@@ -98,7 +98,8 @@ def main():
  source_files=[];items=[];source_manifest=[]
  for folder,cfg in BOOKS.items():
   for p in sorted((args.source/folder).glob("*.md")):
-   source_files.append(p);m=re.fullmatch(r"(\d{4}-\d{2}-\d{2})-([a-z-]+)-(\d+)\.md",p.name)
+   # slug은 알파벳으로 시작할 필요가 없다: 1Thessalonians 같은 책은 slug가 숫자로 시작한다(1thessalonians).
+   source_files.append(p);m=re.fullmatch(r"(\d{4}-\d{2}-\d{2})-([a-z0-9-]+)-(\d+)\.md",p.name)
    if not m:raise SystemExit(f"Unexpected filename: {p.name}")
    day,slug,ch=m.group(1),m.group(2),int(m.group(3));text=p.read_text();ok,found=has_sections(text)
    if slug!=cfg['slug']:raise SystemExit(f"Slug mismatch: {p.name}")
