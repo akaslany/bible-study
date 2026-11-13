@@ -12,15 +12,15 @@ series_id: "first-thessalonians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [4, 5]
+series_missing: [5]
 passage: "데살로니가전서 3장"
 summary: "주님께서 주신 믿음과 사랑을 감사히 받아, 서로의 실제 필요를 돌보고 배우며 주님 앞에 설 날을 향해 거룩하게 살아가자."
 book_url: "/books/first-thessalonians/"
 public: true
 previous_chapter: 2
 previous_url: "/studies/2026-11-12-first-thessalonians-2/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 4
+next_url: "/studies/2026-11-14-first-thessalonians-4/"
 ---
 ## 1. 오늘의 본문
 

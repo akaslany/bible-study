@@ -12,7 +12,7 @@ series_id: "first-thessalonians-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [4, 5]
+series_missing: [5]
 passage: "데살로니가전서 2장"
 summary: "1~6절: 바울 일행은 고난 뒤에도 하나님 안에서 담대히 복음을 전하며, 맡겨진 복음을 정직한 동기로 섬겼음을 밝힌다."
 book_url: "/books/first-thessalonians/"
