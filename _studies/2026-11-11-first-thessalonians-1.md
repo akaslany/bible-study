@@ -10,9 +10,9 @@ expected_chapters: 5
 series: "데살로니가전서 첫 번째 읽기"
 series_id: "first-thessalonians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [5]
+series_missing: []
 passage: "데살로니가전서 1장"
 summary: "하나님 아버지와 주 예수 그리스도 안에 있는 교회는 믿음의 역사와 사랑의 수고와 소망의 인내로 하나님의 은혜를 드러낸다(1:1-4)."
 book_url: "/books/first-thessalonians/"

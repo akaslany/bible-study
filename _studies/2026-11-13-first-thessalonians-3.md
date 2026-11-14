@@ -10,9 +10,9 @@ expected_chapters: 5
 series: "데살로니가전서 첫 번째 읽기"
 series_id: "first-thessalonians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [5]
+series_missing: []
 passage: "데살로니가전서 3장"
 summary: "주님께서 주신 믿음과 사랑을 감사히 받아, 서로의 실제 필요를 돌보고 배우며 주님 앞에 설 날을 향해 거룩하게 살아가자."
 book_url: "/books/first-thessalonians/"

@@ -10,17 +10,17 @@ expected_chapters: 5
 series: "데살로니가전서 첫 번째 읽기"
 series_id: "first-thessalonians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [5]
+series_missing: []
 passage: "데살로니가전서 4장"
 summary: "부활하신 예수님과 영원히 함께할 소망을 품고, 오늘 타인의 존엄을 지키며 맡은 일을 감당하고 슬픔 가운데 있는 사람을 사랑으로 위로한다."
 book_url: "/books/first-thessalonians/"
 public: true
 previous_chapter: 3
 previous_url: "/studies/2026-11-13-first-thessalonians-3/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 5
+next_url: "/studies/2026-11-15-first-thessalonians-5/"
 ---
 ## 1. 오늘의 본문
 
