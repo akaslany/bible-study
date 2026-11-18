@@ -167,5 +167,18 @@
     "status": "완독",
     "url": "/books/first-thessalonians/",
     "latest_chapter": 5
+  },
+  {
+    "name": "데살로니가후서",
+    "slug": "second-thessalonians",
+    "en": "2 THESSALONIANS",
+    "description": "박해 중의 인내와 거짓 가르침에 대한 분별, 굳게 서는 믿음",
+    "expected_chapters": 3,
+    "records": 2,
+    "series_count": 1,
+    "complete_series": 0,
+    "status": "진행 중 · 2 / 3장",
+    "url": "/books/second-thessalonians/",
+    "latest_chapter": 2
   }
 ]
