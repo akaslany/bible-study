@@ -180,5 +180,18 @@
     "status": "완독",
     "url": "/books/second-thessalonians/",
     "latest_chapter": 3
+  },
+  {
+    "name": "디모데전서",
+    "slug": "first-timothy",
+    "en": "1 TIMOTHY",
+    "description": "건전한 교훈과 교회의 질서, 경건에 이르는 신앙의 훈련",
+    "expected_chapters": 6,
+    "records": 0,
+    "series_count": 0,
+    "complete_series": 0,
+    "status": "준비 중",
+    "url": "/books/first-timothy/",
+    "latest_chapter": 0
   }
 ]
