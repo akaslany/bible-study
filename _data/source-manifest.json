@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 227,
-  "published_count": 226,
+  "source_count": 228,
+  "published_count": 227,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -920,6 +920,10 @@
     {
       "source_file": "2Thessalonians/2026-11-19-second-thessalonians-2.md",
       "source_sha256": "040ad9c7fc51298da590064730a3c43418ea3dfa9e3e67a09d49fb2c39c84c08"
+    },
+    {
+      "source_file": "2Thessalonians/2026-11-20-second-thessalonians-3.md",
+      "source_sha256": "a6533427807860ea192f64135b2ede55309ea12361ac5dcbb3891975e380afe2"
     }
   ],
   "published_files": [
@@ -2729,6 +2733,14 @@
       "book_slug": "second-thessalonians",
       "chapter": 2,
       "date": "2026-11-19",
+      "series_id": "second-thessalonians-2026-s1"
+    },
+    {
+      "source_file": "2Thessalonians/2026-11-20-second-thessalonians-3.md",
+      "public_file": "_studies/2026-11-20-second-thessalonians-3.md",
+      "book_slug": "second-thessalonians",
+      "chapter": 3,
+      "date": "2026-11-20",
       "series_id": "second-thessalonians-2026-s1"
     }
   ]

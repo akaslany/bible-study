@@ -174,11 +174,11 @@
     "en": "2 THESSALONIANS",
     "description": "박해 중의 인내와 거짓 가르침에 대한 분별, 굳게 서는 믿음",
     "expected_chapters": 3,
-    "records": 2,
+    "records": 3,
     "series_count": 1,
-    "complete_series": 0,
-    "status": "진행 중 · 2 / 3장",
+    "complete_series": 1,
+    "status": "완독",
     "url": "/books/second-thessalonians/",
-    "latest_chapter": 2
+    "latest_chapter": 3
   }
 ]

@@ -10,9 +10,9 @@ expected_chapters: 3
 series: "데살로니가후서 첫 번째 읽기"
 series_id: "second-thessalonians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [3]
+series_missing: []
 passage: "데살로니가후서 1장"
 summary: "마지막 판단을 공의로우신 하나님께 맡기고, 오늘은 그리스도의 은혜를 의지하여 서로 사랑하며 맡은 선한 일을 신실하게 이루어 가자."
 book_url: "/books/second-thessalonians/"

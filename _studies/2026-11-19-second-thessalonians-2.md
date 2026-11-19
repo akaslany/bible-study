@@ -10,17 +10,17 @@ expected_chapters: 3
 series: "데살로니가후서 첫 번째 읽기"
 series_id: "second-thessalonians-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [3]
+series_missing: []
 passage: "데살로니가후서 2장"
 summary: "마지막을 주 예수께 맡기고, 오늘은 복음에 굳게 서서 확인한 것을 말하고 맡은 선한 일을 하자."
 book_url: "/books/second-thessalonians/"
 public: true
 previous_chapter: 1
 previous_url: "/studies/2026-11-18-second-thessalonians-1/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 3
+next_url: "/studies/2026-11-20-second-thessalonians-3/"
 ---
 📖 데살로니가후서 일일 묵상 리포트
 흔들리는 소문 앞에서 진리를 사랑하는 법
