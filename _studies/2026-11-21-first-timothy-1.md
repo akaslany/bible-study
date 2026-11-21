@@ -12,13 +12,13 @@ series_id: "first-timothy-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [2, 3, 4, 5, 6]
+series_missing: [3, 4, 5, 6]
 passage: "디모데전서 1장"
 summary: "죄인을 구원하러 오신 그리스도의 긍휼을 믿기에, 오늘 나는 내가 전하는 말이 복음에 맞는지 살피고 잘못한 말은 바로잡으며 맡겨진 사람을 사랑으로 섬긴다."
 book_url: "/books/first-timothy/"
 public: true
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 2
+next_url: "/studies/2026-11-22-first-timothy-2/"
 ---
 ## 1. 오늘의 본문
 

@@ -1,7 +1,7 @@
 {
   "source_root": "private Bible archive",
-  "source_count": 229,
-  "published_count": 228,
+  "source_count": 230,
+  "published_count": 229,
   "omitted": [
     {
       "source_file": "John/2026-04-30-john-1.md",
@@ -928,6 +928,10 @@
     {
       "source_file": "1Timothy/2026-11-21-first-timothy-1.md",
       "source_sha256": "8d9f6ea650804892251ff41214edca38444e1a56edec75dd090236ca592ca2e5"
+    },
+    {
+      "source_file": "1Timothy/2026-11-22-first-timothy-2.md",
+      "source_sha256": "7de2c4df6211352b32aec2313e33bfb63bc0ddc0e257fe0e918d7f35794ee3bd"
     }
   ],
   "published_files": [
@@ -2753,6 +2757,14 @@
       "book_slug": "first-timothy",
       "chapter": 1,
       "date": "2026-11-21",
+      "series_id": "first-timothy-2026-s1"
+    },
+    {
+      "source_file": "1Timothy/2026-11-22-first-timothy-2.md",
+      "public_file": "_studies/2026-11-22-first-timothy-2.md",
+      "book_slug": "first-timothy",
+      "chapter": 2,
+      "date": "2026-11-22",
       "series_id": "first-timothy-2026-s1"
     }
   ]
