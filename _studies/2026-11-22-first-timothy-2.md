@@ -12,15 +12,15 @@ series_id: "first-timothy-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [3, 4, 5, 6]
+series_missing: [4, 5, 6]
 passage: "디모데전서 2장"
 summary: "한 분 중보자를 의지한다면, 내가 기도에서 빼 두었던 사람을 오늘 하나님 앞에 기억하고 그를 대하는 내 말과 행동도 돌아보아야 한다."
 book_url: "/books/first-timothy/"
 public: true
 previous_chapter: 1
 previous_url: "/studies/2026-11-21-first-timothy-1/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 3
+next_url: "/studies/2026-11-23-first-timothy-3/"
 ---
 ## 1. 오늘의 본문
 
