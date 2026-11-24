@@ -12,15 +12,15 @@ series_id: "first-timothy-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [5, 6]
+series_missing: [6]
 passage: "디모데전서 4장"
 summary: "살아 계신 하나님께 소망을 두고, 오늘 내 입으로 전하는 한 가지 진리를 내 삶에서도 실천하자."
 book_url: "/books/first-timothy/"
 public: true
 previous_chapter: 3
 previous_url: "/studies/2026-11-23-first-timothy-3/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 5
+next_url: "/studies/2026-11-25-first-timothy-5/"
 ---
 ## 1. 오늘의 본문
 

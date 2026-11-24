@@ -12,7 +12,7 @@ series_id: "first-timothy-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [5, 6]
+series_missing: [6]
 passage: "디모데전서 3장"
 summary: "그리스도를 고백하는 교회는 자리를 탐내는 열심보다 사람을 돌보는 신실함을 살피고, 그 진실함으로 자신이 믿는 진리를 받쳐 든다."
 book_url: "/books/first-timothy/"
