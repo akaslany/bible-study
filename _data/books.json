@@ -193,5 +193,18 @@
     "status": "완독",
     "url": "/books/first-timothy/",
     "latest_chapter": 6
+  },
+  {
+    "name": "디모데후서",
+    "slug": "second-timothy",
+    "en": "2 TIMOTHY",
+    "description": "고난 속에서 복음을 지키고 맡은 말씀을 다음 사람에게 전하는 신실함",
+    "expected_chapters": 4,
+    "records": 0,
+    "series_count": 0,
+    "complete_series": 0,
+    "status": "준비 중",
+    "url": "/books/second-timothy/",
+    "latest_chapter": 0
   }
 ]

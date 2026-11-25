@@ -21,9 +21,10 @@ BOOKS={
  "1Thessalonians":{"slug":"first-thessalonians","ko":"데살로니가전서","en":"1 THESSALONIANS","chapters":5,"description":"재림의 소망과 함께 깨어 있는 성도의 사랑과 인내"},
  "2Thessalonians":{"slug":"second-thessalonians","ko":"데살로니가후서","en":"2 THESSALONIANS","chapters":3,"description":"박해 중의 인내와 거짓 가르침에 대한 분별, 굳게 서는 믿음"},
  "1Timothy":{"slug":"first-timothy","ko":"디모데전서","en":"1 TIMOTHY","chapters":6,"description":"건전한 교훈과 교회의 질서, 경건에 이르는 신앙의 훈련"},
+ "2Timothy":{"slug":"second-timothy","ko":"디모데후서","en":"2 TIMOTHY","chapters":4,"description":"고난 속에서 복음을 지키고 맡은 말씀을 다음 사람에게 전하는 신실함"},
 }
 SECTION_TERMS={1:"오늘의 본문",2:"핵심 구절",3:"구조 분석",4:"해석",5:"삶 적용",6:"묵상/기도",7:"한눈에 보는 요약"}
-AUTOMATION_LINES=("저장 파일명:","다음에는 성경 어느 장을 읽을까요?","까지 완료했습니다. 다음에는 성경 어느 장을 읽을까요?")
+AUTOMATION_LINES=("저장 파일명:","다음에는 성경 어느 장을 읽을까요?","까지 완료했습니다. 다음에는 성경 어느 장을 읽을까요?","디모데후서 4장까지 완료했습니다. 다음에는 성경 어느 책을 읽을까요?")
 
 
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
