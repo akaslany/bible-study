@@ -10,17 +10,17 @@ expected_chapters: 6
 series: "디모데전서 첫 번째 읽기"
 series_id: "first-timothy-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [6]
+series_missing: []
 passage: "디모데전서 5장"
 summary: "그리스도께 긍휼을 입은 교회는 돌봄이 필요한 사람을 외면하지 않고, 수고에는 정당하게 응답하며, 누구의 잘못이든 같은 기준으로 다룬다."
 book_url: "/books/first-timothy/"
 public: true
 previous_chapter: 4
 previous_url: "/studies/2026-11-24-first-timothy-4/"
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 6
+next_url: "/studies/2026-11-26-first-timothy-6/"
 ---
 ## 1. 오늘의 본문
 

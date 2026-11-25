@@ -10,9 +10,9 @@ expected_chapters: 6
 series: "디모데전서 첫 번째 읽기"
 series_id: "first-timothy-2026-s1"
 series_number: 1
-series_complete: false
+series_complete: true
 series_closed: false
-series_missing: [6]
+series_missing: []
 passage: "디모데전서 2장"
 summary: "한 분 중보자를 의지한다면, 내가 기도에서 빼 두었던 사람을 오늘 하나님 앞에 기억하고 그를 대하는 내 말과 행동도 돌아보아야 한다."
 book_url: "/books/first-timothy/"
