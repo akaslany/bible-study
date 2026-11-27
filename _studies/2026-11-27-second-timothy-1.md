@@ -12,13 +12,13 @@ series_id: "second-timothy-2026-s1"
 series_number: 1
 series_complete: false
 series_closed: false
-series_missing: [2, 3, 4]
+series_missing: [3, 4]
 passage: "디모데후서 1장"
 summary: "갇힌 바울은 디모데의 거짓 없는 믿음을 기억하며, 죽음을 이기신 그리스도의 은혜를 근거로 하나님이 주신 은사를 되살리고, 복음과 함께 고난을 받으며, 성령을 힘입어 맡은 복음을 지키라고 권한다."
 book_url: "/books/second-timothy/"
 public: true
-series_end: true
-series_end_label: "현재까지 기록"
+next_chapter: 2
+next_url: "/studies/2026-11-28-second-timothy-2/"
 ---
 ## 1. 오늘의 본문
 날짜: 2026-11-27 (한국 표준시)
